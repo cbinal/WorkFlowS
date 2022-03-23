@@ -4,8 +4,6 @@ class model
     public $db;
     public function __construct(){
         $this->db = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME.";charset=utf8",DB_USERNAME,DB_PASSWORD);
-//        $this->db = new PDO('mysql:host=localhost;dbname=workflow','cbinal','Mer6514A4cve.');
-
     }
     public function model($file) {
         if (file_exists(MODELS_PATH."/".$file.".php")) {
