@@ -7,9 +7,7 @@ define("DB_NAME","workflow");
 define("DB_USERNAME","cbinal");
 define("DB_PASSWORD","Mer6514A4cve.");
 
-
 define('SITE_URL', 'http://192.168.1.250');
-
 
 define('CSS_PATH', SITE_URL . '/public/css');
 define('BUILD_PATH', SITE_URL . '/public/build');
