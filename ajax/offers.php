@@ -13,7 +13,7 @@ if (!empty($_POST)) {
     function getModules($params) {
         $classModel = new \Model\ModelMySQL();
     //    echo json_encode($params);
-        $query = $classModel->db->prepare('SELECT mg.product_id, mg.module_group_name, mg.price_inf, m.* FROM `module_groups` mg LEFT JOIN modules m on m.`module_group_id` = mg.`id` WHERE mg.`product_id`='.$params["productId"].' ORDER BY mg.`sort`, m.`sort`');
+        $query = $classModel->db->prepare('SELECT * FROM `vw_product_module_matches` WHERE `product_id`='.$params["productId"]);
 //        echo json_encode($query);
         $query->execute($params->productId);
 

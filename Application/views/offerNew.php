@@ -179,7 +179,7 @@
     function countElement(item,array) {
         var count = 0;
         $.each(array, function(i,v) {
-            if (v.module_group_name === item) {
+            if (v.feature_group_name === item) {
             count++;
         } });
         return count;
@@ -217,16 +217,16 @@
         var productId = $('#productSelect option').filter(':selected').val();
         var quantity = $('#quantity').val();
         $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getModules', params:{productId: productId, quantity: quantity}}, function (data) {
-            // console.log(data);
+            console.log(data);
             var jsonData = JSON.parse(data);
             var modulesContainer = $('#modulesContainer');
 
             var groupName = '';
             modulesContainer.html('');
             $.each(jsonData, function (index, value) {
-                if (groupName !== value.module_group_name) {
-                    initElGroup(modulesContainer, value.module_group_id, value.module_group_name);
-                    groupName = value.module_group_name;
+                if (groupName !== value.feature_group_name) {
+                    initElGroup(modulesContainer, value.feature_group_id, value.feature_group_name);
+                    groupName = value.feature_group_name;
                 }
                 var elBlock = [];
                 elBlock.push({
@@ -234,7 +234,7 @@
                     'module_name': value.module_name, 
                     'size': 4, 
                     'name': 'value', 
-                    'id': value.id, 
+                    'id': value.module_id, 
                     'label': 'Özellik', 
                     'value':'',
                     'type': 'text'
@@ -244,32 +244,32 @@
                     'module_name': value.module_name, 
                     'size': 4, 
                     'name': 'description', 
-                    'id': value.id, 
+                    'id': value.module_id, 
                     'label': 'Açıklama', 
                     'value':'',
                     'type': 'text'
                 });
                 elBlock.push({
-                    'isThere':parseInt(value.module_quantity_inf)*parseInt($('#quantity').val()), 
+                    'isThere':true, 
                     'module_name': value.module_name, 
                     'size': 2, 
                     'name': 'quantity', 
-                    'id': value.id, 
+                    'id': value.module_id, 
                     'label': 'Adet', 
-                    'value':parseInt(value.module_quantity_inf)*parseInt($('#quantity').val()),
+                    'value':true,
                     'type': 'number'
                 });
                 elBlock.push({
-                    'isThere':parseInt(value.module_price_inf)*parseInt($('#quantity').val()), 
+                    'isThere':true, 
                     'module_name': value.module_name, 
                     'size': 2, 
                     'name': 'price', 
-                    'id': value.id, 
+                    'id': value.module_id, 
                     'label': 'Fiyat', 
-                    'value':parseInt(value.module_price_inf)*parseInt($('#quantity').val()),
+                    'value':true,
                     'type': 'number'
                 });
-                createInputElementGroup(elBlock, value.module_group_id);
+                createInputElementGroup(elBlock, value.feature_group_id);
             });
         });
     }
