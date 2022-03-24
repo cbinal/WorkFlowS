@@ -4,8 +4,8 @@ define("VIEWS_PATH","Application/views");
 define("MODELS_PATH","Application/models");
 define("DB_HOST","localhost");
 define("DB_NAME","workflow");
-define("DB_USERNAME","cbinal");
-define("DB_PASSWORD","Mer6514A4cve.");
+define("DB_USERNAME","");
+define("DB_PASSWORD","");
 
 define('SITE_URL', 'http://192.168.1.250');
 
