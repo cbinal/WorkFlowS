@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                         </div>
-                </div>
+                    </div>
                 <div class="x_panel">
                     <div class="x_title">
                         <h2>Teknik Detaylar<small> </small></h2>
@@ -160,10 +160,9 @@
                         <div class="clearfix"></div>
                         <form id="ftechnical_details">
                             <div class="form-group" id="modulesContainer">
-                                <hr>
 
                             </div>
-                        </form>
+                        </form> 
                     </div>
                 </div>
             </div>
@@ -185,12 +184,13 @@
         return count;
     }
 
-    function initElGroup (to, num, module_group_name) {
-        var elBlock = '';
-        elBlock += '<div class="row"><div class="col-md-12" id="mcChild-'+num+'"></div></div>';
-        to.append(elBlock);
-        childEl = $('#mcChild-'+num);
-        childEl.append('<h4 class="mt-3">'+module_group_name+'</h4><hr>');
+    function initElGroup (to, id, module_group_name) {
+        // console.log($('#modulesContainer').find('#mcGroup-'+id));
+        to.append('<h4 class="mt-3">'+module_group_name+'</h4><hr>');
+        to.append('<div class="row" id="group-'+id+'"></div>');
+        var elBlock = '<div class="col-md-8" id="fcGroup-'+id+'"></div><div class="col-md-4" style="background-color: #fafafa;" id="mcGroup-'+id+'"></div>';
+        var group = $('#group-'+id);
+        group.append(elBlock);
     }
 
     function createInputElementGroup(elements, to) {
@@ -210,79 +210,55 @@
             }
         });
         elBlock += '</div></div>';
-        $('#mcChild-'+to).append(elBlock);
+        $('#'+to).append(elBlock);
     }
 
     function goTechnicalDetails() {
         var productId = $('#productSelect option').filter(':selected').val();
         var quantity = $('#quantity').val();
-        $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getModules', params:{productId: productId, quantity: quantity}}, function (data) {
-            console.log(data);
-            var jsonData = JSON.parse(data);
-            var modulesContainer = $('#modulesContainer');
+        
+        $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getFeatures', params:{productId: productId, quantity: quantity}}, function (data) {
+            $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getModules', params:{productId: productId, quantity: quantity}}, function (data1) {
+                var jsonData1 = JSON.parse(data1);
+                var groupName = '';
 
+                $.each(jsonData1, function (index, value) {
+                    if (groupName !== value.feature_group_name) {
+                        // initElGroup(modulesContainer, value.feature_group_id, value.feature_group_name);
+                        groupName = value.feature_group_name;
+                    }
+                    var elBlock = [];
+                    elBlock.push({'isThere':true, 'module_name': value.module_name, 'size': 6, 'name': 'details-quantity', 'id': value.module_id, 'label': 'Adet',  'value': '','type': 'number'});
+                    elBlock.push({'isThere':true, 'module_name': value.module_name, 'size': 6, 'name': 'details-price',    'id': value.module_id, 'label': 'Fiyat', 'value': '','type': 'number'});
+                    createInputElementGroup(elBlock, 'mcGroup-'+value.feature_group_id);
+                });
+            });
+            var jsonData = JSON.parse(data);
+            var featuresContainer = $('#modulesContainer');
             var groupName = '';
-            modulesContainer.html('');
-            $.each(jsonData, function (index, value) {
+
+            featuresContainer.html('');
+            $.each(jsonData, function(index, value) {
                 if (groupName !== value.feature_group_name) {
-                    initElGroup(modulesContainer, value.feature_group_id, value.feature_group_name);
+                    initElGroup(featuresContainer, value.feature_group_id, value.feature_group_name);
                     groupName = value.feature_group_name;
                 }
                 var elBlock = [];
-                elBlock.push({
-                    'isThere':true, 
-                    'module_name': value.module_name, 
-                    'size': 4, 
-                    'name': 'value', 
-                    'id': value.module_id, 
-                    'label': 'Özellik', 
-                    'value':'',
-                    'type': 'text'
-                });
-                elBlock.push({
-                    'isThere':true, 
-                    'module_name': value.module_name, 
-                    'size': 4, 
-                    'name': 'description', 
-                    'id': value.module_id, 
-                    'label': 'Açıklama', 
-                    'value':'',
-                    'type': 'text'
-                });
-                elBlock.push({
-                    'isThere':true, 
-                    'module_name': value.module_name, 
-                    'size': 2, 
-                    'name': 'quantity', 
-                    'id': value.module_id, 
-                    'label': 'Adet', 
-                    'value':true,
-                    'type': 'number'
-                });
-                elBlock.push({
-                    'isThere':true, 
-                    'module_name': value.module_name, 
-                    'size': 2, 
-                    'name': 'price', 
-                    'id': value.module_id, 
-                    'label': 'Fiyat', 
-                    'value':true,
-                    'type': 'number'
-                });
-                createInputElementGroup(elBlock, value.feature_group_id);
+                elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-value', 'id':value.feature_id, 'label': 'Değer', 'value':'', 'type': 'text'});
+                elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-description', 'id':value.feature_id, 'label': 'Açıklama', 'value':'', 'type': 'text'});
+                createInputElementGroup(elBlock, 'fcGroup-'+value.feature_group_id);
             });
         });
+        
     }
 
     function postForm() {
         var formElement = $('#offer-form');
         var technicalDetails = $('#ftechnical_details');
-        // console.log(formElement);
         var formData = {};
         var headData = {};
         var technicalDetailsData = {};
         $.each(formElement[0], function(index, value) {
-            // console.log(value.name+' - '+value.value);
             headData[value.name] = value.value;
         });
         formData['heads'] = headData;
@@ -290,7 +266,7 @@
             technicalDetailsData[value.name] = value.value;
         });
         formData['details'] = technicalDetailsData;
-        
+        console.log(formData);
         $.post('<?=SITE_URL;?>/ajax/offers.php',{'action':'postData', params:formData}, function(returnValue){
             console.log(returnValue);
         });

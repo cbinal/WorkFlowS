@@ -10,12 +10,21 @@ if (!empty($_POST)) {
         echo $classModel->selectDB("products");
     }
 
-    function getModules($params) {
+    function getModules($params) {  
         $classModel = new \Model\ModelMySQL();
     //    echo json_encode($params);
         $query = $classModel->db->prepare('SELECT * FROM `vw_product_module_matches` WHERE `product_id`='.$params["productId"]);
 //        echo json_encode($query);
-        $query->execute($params->productId);
+        $query->execute();
+
+        echo json_encode($query->fetchAll(PDO::FETCH_ASSOC));
+    }
+
+    function getFeatures($params) {
+        $classModel = new \Model\ModelMySQL();
+        $query = $classModel->db->prepare('SELECT * FROM `vw_product_feature_matches` WHERE `product_id`='.$params["productId"]);
+        // echo json_encode($query);
+        $query->execute();
 
         echo json_encode($query->fetchAll(PDO::FETCH_ASSOC));
     }

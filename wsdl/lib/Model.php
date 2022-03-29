@@ -56,6 +56,7 @@ class ModelMySQL
     public function postOffer($data) //TODO:cbinal DOM dan gelen veriye güvenme kontrollü içeri al  
     {
         $offerDetails = $data["details"];
+        return $offerDetails;
         unset($data["details"]);
         unset($data["heads"]["0"]);
         $returnValue = [];
