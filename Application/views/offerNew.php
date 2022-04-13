@@ -137,7 +137,7 @@
                                 Ürün Seçiniz <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 ">
-                                <select id="productSelect" class="form-control">
+                                <select id="productSelect" name="product_id" class="form-control">
                                     <option value="0">Ürün Seçiniz</option>
                                 </select>
                             </div>
@@ -266,7 +266,7 @@
             technicalDetailsData[value.name] = value.value;
         });
         formData['details'] = technicalDetailsData;
-        console.log(formData);
+        // console.log(formData);
         $.post('<?=SITE_URL;?>/ajax/offers.php',{'action':'postData', params:formData}, function(returnValue){
             console.log(returnValue);
         });

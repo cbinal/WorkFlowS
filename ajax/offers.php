@@ -14,7 +14,7 @@ if (!empty($_POST)) {
         $classModel = new \Model\ModelMySQL();
     //    echo json_encode($params);
         $query = $classModel->db->prepare('SELECT * FROM `vw_product_module_matches` WHERE `product_id`='.$params["productId"]);
-//        echo json_encode($query);
+    //    echo json_encode($query);
         $query->execute();
 
         echo json_encode($query->fetchAll(PDO::FETCH_ASSOC));
@@ -38,8 +38,8 @@ if (!empty($_POST)) {
 
     $action = $_POST['action'];
     $params = $_POST['params'];
-//    $action = $_GET['action'];
-//    $params = $_GET['params'];
+    //$action = $_GET['action'];
+    //$params = $_GET['params'];
 
     if (function_exists($action)) {
         call_user_func($action,$params);

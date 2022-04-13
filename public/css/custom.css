@@ -942,7 +942,7 @@
 
 .profile_info h2 {
   font-size: 14px;
-  color: #fff200;
+  color: #fff;
   margin: 0;
   font-weight: 300; }
 
@@ -1152,7 +1152,7 @@ body .container.body .right_col {
 
 body {
   color: #73879C;
-  background: #888888;
+  background: #00524b;
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;

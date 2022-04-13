@@ -37,6 +37,25 @@ class ModelMySQL
 
     }
 
+    private function arrangeData($data) {
+        $returnValue = [];
+        $tableName = "";
+        foreach($data as $key=>$value) {
+            $expKey = explode("-",$key);
+            $returnValue[$expKey[0]][$expKey[2]][$expKey[1]] = $value;
+            // $returnValue[$expKey[0]]["offer_id"] = $expKey[2];
+        }
+        $arrangedArr = [];
+        $fieldName = array("features"=>"feature_id", "details"=>"module_id")
+        foreach ($returnValue as $itemKey=>$itemValue) {
+            foreach($itemValue as $key=>$value) {
+                $value[$fieldName[$itemKey]] = $key;
+                $arrangedArr[$itemKey][] = $value;
+            }
+        }
+        return $arrangedArr;
+    }
+
     private function smashData($data=[]) {
         $fields = [];
         $params = [];
@@ -55,6 +74,10 @@ class ModelMySQL
 
     public function postOffer($data) //TODO:cbinal DOM dan gelen veriye güvenme kontrollü içeri al  
     {
+        // return $data;
+        $returnedValue = $this->arrangeData($data["details"]);
+        return $returnedValue;
+        /* 
         $offerDetails = $data["details"];
         return $offerDetails;
         unset($data["details"]);
@@ -114,7 +137,8 @@ class ModelMySQL
             return $returnValue;
         } else {
             return $returnValue;
-        }
+        } 
+        */
     }
 
     public function __destruct()
