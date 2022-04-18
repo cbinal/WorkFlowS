@@ -1,13 +1,13 @@
 <?php
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
 
 require_once "../wsdl/lib/Model.php";
 if (!empty($_POST)) {
     function allProducts() {
-        $classModel = new \Model\ModelMySQL();
-        echo $classModel->selectDB("products");
+        $classModel1 = new \Model\ModelMySQL();
+        echo $classModel1->selectDB("products");
     }
 
     function getModules($params) {  
@@ -38,8 +38,8 @@ if (!empty($_POST)) {
 
     $action = $_POST['action'];
     $params = $_POST['params'];
-    //$action = $_GET['action'];
-    //$params = $_GET['params'];
+    // $action = $_GET['action'];
+    // $params = $_GET['params'];
 
     if (function_exists($action)) {
         call_user_func($action,$params);

@@ -110,7 +110,7 @@
                                     <input type="text" id="tax_office" name="tax_office" required="required" class="form-control">
                                 </div>
                                 <div class="col-md-3 col-sm-3 ">
-                                    <input type="text" id="tex_number" name="tax_number" required="required" class="form-control">
+                                    <input type="text" id="tax_number" name="tax_number" required="required" class="form-control">
                                 </div>
                             </div>
                             <div class="item form-group">

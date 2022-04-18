@@ -18,7 +18,6 @@ class ModelMySQL
         $orderby = (!empty($orderby))?" order by ".$orderby:"";
         $where = (!empty($where))?" where ".$where:"";
         $query = $this->db->prepare("select * from $tableName $where $orderby");
-
         $query->execute($params);
         return json_encode($query->fetchAll(\PDO::FETCH_ASSOC));
     }
@@ -46,8 +45,8 @@ class ModelMySQL
             // $returnValue[$expKey[0]]["offer_id"] = $expKey[2];
         }
         $arrangedArr = [];
-        $fieldName = array("features"=>"feature_id", "details"=>"module_id")
-        foreach ($returnValue as $itemKey=>$itemValue) {
+        $fieldName = array("features"=>"feature_id", "details"=>"module_id");
+        foreach($returnValue as $itemKey=>$itemValue) {
             foreach($itemValue as $key=>$value) {
                 $value[$fieldName[$itemKey]] = $key;
                 $arrangedArr[$itemKey][] = $value;
@@ -57,6 +56,7 @@ class ModelMySQL
     }
 
     private function smashData($data=[]) {
+        // return gettype($data);
         $fields = [];
         $params = [];
         foreach($data as $key=>$value){
@@ -74,71 +74,67 @@ class ModelMySQL
 
     public function postOffer($data) //TODO:cbinal DOM dan gelen veriye güvenme kontrollü içeri al  
     {
-        // return $data;
         $returnedValue = $this->arrangeData($data["details"]);
-        return $returnedValue;
-        /* 
-        $offerDetails = $data["details"];
-        return $offerDetails;
-        unset($data["details"]);
+        $offerFeatures = $returnedValue["features"];
+        $offerDetails  = $returnedValue["details"];
+        unset($data["features"]);
         unset($data["heads"]["0"]);
         $returnValue = [];
         $rev_no = $this->versionController('offers', $data["heads"]['reference_no']);
         $data["heads"]["revision_no"] = $rev_no;
         $smashedData = $this->smashData($data["heads"]);
-        // return json_encode($smashedData);
-
+        // return ($smashedData);
         try {
             $sql = "INSERT INTO offers (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
             $stmt= $this->db->prepare($sql);
-            // return json_encode($data["heads"]);
-            $returnValue[0]["status"] = boolval($stmt->execute($data["heads"]));
-            $returnValue[0]["id"] = $this->db->lastInsertId();
+            // return $stmt;
+            $returnValue["heads"]["status"] = boolval($stmt->execute($data["heads"]));
+            // return $data["heads"];
+            $returnValue["heads"]["id"] = $this->db->lastInsertId();
             if (boolval($rev_no)) {
-                $returnValue[0]["message"] = "Teklif revizyon kaydı başarıyla tamamlandı.";
+                $returnValue["heads"]["message"] = "Teklif revizyon kaydı başarıyla tamamlandı.";
             } else {
-                $returnValue[0]["message"] = "Teklif üst bilgileri başarıyla kaydedildi.";
+                $returnValue["heads"]["message"] = "Teklif üst bilgileri başarıyla kaydedildi.";
             }
             // return $returnValue;
         } catch (Exception $e) {
-            $returnValue[0]["status"] = False; 
-            $returnValue[0]["message"]=$e;
+            $returnValue["heads"]["status"] = False; 
+            $returnValue["heads"]["message"]=$e;
             // return $returnValue;
         }
 
-        if ($returnValue[0]["status"]) {
+        if ($returnValue["heads"]["status"]) {
             // return $offerDetails;
-            $valuesArr = [];
-            $arrangedValues = [];
-            $mID = 0; 
-            $arrInd = -1;
-            foreach ($offerDetails as $key=>$value) {
-                $moduleArr = explode("-",$key);
-                if ($mID != $moduleArr[1]) {
-                    $arrInd++;
-                    $mID = $moduleArr[1];
-                    $arrangedValues[$arrInd]["module_id"] = $moduleArr[1];
-                    $arrangedValues[$arrInd]["offer_id"] = $returnValue[0]["id"];
-                }
-                $arrangedValues[$arrInd][$moduleArr[0]] = $value;
-                // $this->db->prepare(sql);
-            }
-            $arrInd = 1;
-            foreach ($arrangedValues as $item) {
+            foreach ($offerDetails as $item) {
+                $item["product_id"]=$data["heads"]["product_id"];
+                $item["offer_id"]=$returnValue["heads"]["id"];
                 $smashedData = $this->smashData($item);
                 $sql = "INSERT INTO offer_details (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
                 $stmt= $this->db->prepare($sql);
+                // return $stmt;
                 // return json_encode($item);
-                $returnValue[$arrInd]["status"] = $stmt->execute($item);
-                $returnValue[$arrInd]["id"] = $this->db->lastInsertId();
-                $returnValue[$arrInd]["message"] = ($returnValue[$arrInd]["status"] ? 'Kayıt Başarılı' : 'Kayıt Hatası');
-                $arrInd++;
+                $status = $stmt->execute($item);
+                $returnValue["details"][] = array("status"=>$status, "id"=>$this->db->lastInsertId(), "message"=>$status ? 'Kayıt Başarılı' : 'Kayıt Hatası');
+            }
+        } 
+
+        if ($returnValue["heads"]["status"]) {
+            // return $offerDetails;
+            $arrInd = 1;
+            foreach ($offerFeatures as $item) {
+                $item["product_id"]=$data["heads"]["product_id"];
+                $item["offer_id"]=$returnValue["heads"]["id"];
+                $smashedData = $this->smashData($item);
+                $sql = "INSERT INTO offer_features (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
+                $stmt= $this->db->prepare($sql);
+                // return json_encode($item);
+                $status = $stmt->execute($item);
+                $returnValue["features"][] = array("status"=>$status, "id"=>$this->db->lastInsertId(), "message"=>$status ? 'Kayıt Başarılı' : 'Kayıt Hatası');
             }
             return $returnValue;
         } else {
             return $returnValue;
         } 
-        */
     }
 
     public function __destruct()

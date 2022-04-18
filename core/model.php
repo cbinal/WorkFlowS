@@ -18,4 +18,18 @@ class model
         }
     }
 
+    public function selectDB($tableName, $where = "", $orderby = "", $params=[])
+    {
+        $orderby = (!empty($orderby))?" order by ".$orderby:"";
+        $where = (!empty($where))?" where ".$where:"";
+        $query = $this->db->prepare("select * from $tableName $where $orderby");
+        $query->execute($params);
+        return $query->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    public function freeQuery($queryText, $params = []) {
+        $query = $this->db->prepare($queryText);
+        return $query->execute($params);
+    } 
+
 }
