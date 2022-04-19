@@ -176,6 +176,7 @@
                             <th>AÇIKLAMA</th>
                             <th>ADET</th>
                             <th>FİYAT</th>
+                            <th>TUTAR</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -186,12 +187,21 @@
                             echo "<td>".$item["feature_group_name"]."</td>";
                             echo "<td>".$item["module_name"]."</td>";
                             echo "<td>".$item["description"]."</td>";
-                            echo "<td>".$item["quantity"]."</td>";
-                            echo "<td>".$item["price"]."</td>";
+                            echo "<td style='text-align:right'>".$item["quantity"]."</td>";
+                            echo "<td style='text-align:right'>".$item["price"]."</td>";
+                            echo "<td style='text-align:right'></td>";
                             echo "</tr>";
                             }
                             ?>
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="3" style="text-align:right">Genel Toplam:</th>
+                                    <th style="text-align:right"></th>
+                                    <th style="text-align:right"></th>
+                                    <th style="text-align:right"></th>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
                 </div>
@@ -209,39 +219,6 @@
 <script>
 $(document).ready(function() {
     var groupColumn = 0;
-    var table = $('#priceTable').DataTable({
-        "columnDefs": [
-            { "visible": false, "targets": groupColumn }
-        ],
-        "order": [[ groupColumn, 'asc' ]],
-        "displayLength": 25,
-        "drawCallback": function ( settings ) {
-            var api = this.api();
-            var rows = api.rows( {page:'current'} ).nodes();
-            var last=null;
- 
-            api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
-                if ( last !== group ) {
-                    $(rows).eq( i ).before(
-                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
-                    );
- 
-                    last = group;
-                }
-            } );
-        }
-    } );
- 
-    // Order by the grouping
-    $('#priceTable tbody').on( 'click', 'tr.group', function () {
-        var currentOrder = table.order()[0];
-        if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
-            table.order( [ groupColumn, 'desc' ] ).draw();
-        }
-        else {
-            table.order( [ groupColumn, 'asc' ] ).draw();
-        }
-    } );
     var table = $('#featureTable').DataTable({
         "columnDefs": [
             { "visible": false, "targets": groupColumn }
@@ -264,6 +241,86 @@ $(document).ready(function() {
             } );
         }
     } );
+
+    var table = $('#priceTable').DataTable({
+        "columnDefs": [
+            { "visible": false, "targets": groupColumn },
+            {"render": function ( data, type, row ) {
+				return parseInt(row[3])*parseInt(row[4]);
+			},
+			"targets": -1}
+        ],
+        "order": [[ groupColumn, 'asc' ]],
+        "displayLength": 25,
+        "footerCallback": function ( row, data, start, end, display ) {
+            var api = this.api();
+ 
+            // Remove the formatting to get integer data for summation
+            var intVal = function ( i ) {
+                return typeof i === 'string' ?
+                    i.replace(/[\$,]/g, '')*1 :
+                    typeof i === 'number' ?
+                        i : 0;
+            };
+ 
+            // Total over all pages
+            totalq = api
+                .column( 3 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+/*             total = api
+                .column( 4 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+ */               
+            total = 0;
+            $.each(data, function(index,value){
+                console.log('value: '+value[4]*value[3]);
+                total += value[3]*value[4];
+            });
+            // Total over this page
+            pageTotal = api
+                .column( 4, { page: 'current'} )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            pageTotalq = api
+                .column( 3, { page: 'current'} )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+ 
+
+            // Update footer
+            $( api.column( 5 ).footer() ).html(
+                formatMoney(total) +''
+            );
+            $( api.column( 3 ).footer() ).html(
+                formatMoney(totalq) +''
+            );
+        },
+        "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+ 
+            api.column(groupColumn, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                    );
+ 
+                    last = group;
+                }
+            } );
+        }
+    } );
  
     // Order by the grouping
     $('#priceTable tbody').on( 'click', 'tr.group', function () {
@@ -275,5 +332,20 @@ $(document).ready(function() {
             table.order( [ groupColumn, 'asc' ] ).draw();
         }
     } );
+ 
+    // Order by the grouping
+    $('#featureTable tbody').on( 'click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if ( currentOrder[0] === groupColumn && currentOrder[1] === 'asc' ) {
+            table.order( [ groupColumn, 'desc' ] ).draw();
+        }
+        else {
+            table.order( [ groupColumn, 'asc' ] ).draw();
+        }
+    } );
 } );
+
+function formatMoney(n) {
+    return "" + (Math.round(n * 100) / 100).toLocaleString();
+}
 </script>

@@ -38,5 +38,11 @@ class offer extends controller {
         $this->render('offerDetail', $responseData);
         $this->render('site/footer_with_dt');
     }
+
+    public function print($params) {
+        if (!$this->sessionManager->isLogged()) { helper::redirect(SITE_URL.'/login');}
+        $responseData = $this->model('offerModel')->offerDetail($params);
+        $this->render('offerPrint', $responseData);
+    }
 }
 

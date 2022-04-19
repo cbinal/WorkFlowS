@@ -49,8 +49,8 @@
                             echo "<td><a href='tel:".$item["gsm_number"]."'>".$item["gsm_number"]."</a></td>";
                             echo "<td><a href='tel:".$item["phone_number"]."'>".$item["phone_number"]."</a></td>";
                             echo "<td><a href='mailto:".$item["email"]."'>".$item["email"]."</a></td>";
-                            echo "<td>".$item["transition_date"]."</td>";
-                            echo "<td><a href='".SITE_URL."/offer/detail/".$item["id"]."'> DETAY </a> | <a href='".SITE_URL."/offer/revision/".$item["id"]."'> REVİZE </a></td>";
+                            echo "<td>Burayı Hallet</td>";
+                            echo "<td><a href='".SITE_URL."/offer/detail/".$item["id"]."'> DETAY </a> | <a href='".SITE_URL."/offer/revision/".$item["id"]."'> REVİZE </a> | <a href='".SITE_URL."/offer/print/".$item["id"]."'> YAZDIR </a></td>";
                             echo "</tr>";
                         }
                         ?>

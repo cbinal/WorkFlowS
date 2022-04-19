@@ -22,6 +22,6 @@
     <script src="<?=BUILD_PATH;?>/jquery/dist/jquery.min.js"></script>
 </head>
 
-<body class="nav-md">
+<body class="nav-sm">
 <div class="container body">
     <div class="main_container">
