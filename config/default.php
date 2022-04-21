@@ -14,6 +14,7 @@ define('BUILD_PATH', SITE_URL . '/public/build');
 define('BUILD_PATH1', '/public/build');
 define('JS_PATH', SITE_URL . '/public/js');
 define('IMG_PATH', SITE_URL . '/public/images');
+define('TIMG_PATH', SITE_URL . '/public/techimages');
 define('BOWER_PATH', SITE_URL . '/public/bower_components');
 define('PLUGIN_PATH', SITE_URL . '/public/plugins');
 define('VENDORS_PATH', SITE_URL . '/public/vendors');

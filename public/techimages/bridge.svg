@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1119.18mm" height="818.065mm" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 111917.58 81806.48"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" fill-rule="nonzero" font-weight="400">
+	<font-face
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="," horiz-adv-x="277" d="M89 0l0 100 100 0 0 -100c0,-36.8286 -6.51429,-66.6571 -19.6571,-89.3429 -13,-22.6571 -33.8571,-40.3143 -62.3429,-52.6571l-24 38c18.6571,8.17143 32.3429,20.1714 41,35.8286 8.82857,15.8286 13.8286,38.5143 14.8286,68.1714l-49.8286 0z"/>
+   <glyph unicode="0" horiz-adv-x="556" d="M42 353.343c0,84.4857 8.65714,152.829 26,204.486 17.4857,51.8286 43.3429,91.6571 77.6571,119.514 34.1714,27.8286 77.3429,41.6571 129.343,41.6571 38.3429,0 72,-7.65714 101.171,-23.1714 29,-15.4857 53,-37.8286 71.6571,-67 18.6571,-29 33.3429,-64.4857 44,-106.343 10.8286,-41.8286 16.1714,-98.3143 16.1714,-169.143 0,-84 -8.65714,-152 -25.8286,-203.686 -17.1714,-51.8286 -43,-91.6571 -77.3429,-119.657 -34.1714,-28 -77.4857,-42 -129.829,-42 -68.8286,0 -123,24.4857 -162.343,73.6571 -47.1714,60 -70.6571,157.171 -70.6571,291.686zm90 -0.342857c0,-117.829 13.6571,-196.171 41.1714,-234.829 27.4857,-38.8286 61.4857,-58.1714 101.829,-58.1714 40.3429,0 74.3429,19.4857 101.829,58.3429 27.5143,39 41.1714,117.143 41.1714,234.657 0,117.829 -13.6571,196.171 -41.1714,234.829 -27.3429,38.8286 -61.6571,58.1714 -102.829,58.1714 -40.3429,0 -72.6571,-17.1714 -96.8286,-51.3429 -30.1714,-43.4857 -45.1714,-124.171 -45.1714,-241.657z"/>
+   <glyph unicode="2" horiz-adv-x="556" d="M503 84l0 -84 -474 0c-0.657143,21.1714 2.82857,41.4857 10.3429,61.1714 12.1429,32.1714 31.6571,64 58.4857,95.1714 26.8286,31.1429 65.1714,67.1429 115,108 77.5143,63.8286 130.171,114.314 157.657,151.657 27.6857,37.3429 41.5143,72.6571 41.5143,106 0,34.8286 -12.5143,64.1714 -37.5143,88.1714 -25,23.8286 -57.6571,35.8286 -97.8286,35.8286 -42.4857,0 -76.4857,-12.6571 -102,-38 -25.4857,-25.1714 -38.3143,-60.1714 -38.6571,-105l-90 9c6.17143,67.3429 29.4857,118.657 69.8286,154 40.5143,35.3429 94.6571,53 162.829,53 68.6857,0 123.171,-19 163.171,-57.1714 40.1714,-38.1714 60.1714,-85.4857 60.1714,-141.829 0,-28.6571 -5.82857,-56.8286 -17.6571,-84.5143 -11.6857,-27.8286 -31.1714,-57 -58.3429,-87.6571 -27.3429,-30.4857 -72.5143,-72.6571 -135.514,-126 -52.8286,-44.3429 -86.8286,-74.3429 -101.829,-90.1714 -15,-15.8286 -27.3143,-31.6571 -37.1714,-47.6571l351.514 0z"/>
+   <glyph unicode="3" horiz-adv-x="556" d="M42 190l88 12c10.1714,-50 27.1714,-86 51.3429,-108 24.1429,-22 53.8286,-33 89,-33 41.6571,0 76.8286,14.3429 105.143,43 28.3429,28.6571 42.5143,64.1714 42.5143,106.486 0,40.3429 -13.1714,73.6857 -39.6571,100 -26.3429,26.1714 -59.8571,39.3429 -100.686,39.3429 -16.6571,0 -37.3143,-3.34286 -62.1714,-9.82857l9.85714 77c5.82857,-0.657143 10.6571,-1 14.1429,-1 37.6857,0 71.3429,9.82857 101.514,29.3429 30,19.4857 45,49.4857 45,90 0,32.1429 -11,58.8286 -32.8286,80 -21.8286,21.1429 -50,31.6571 -84.5143,31.6571 -34.3143,0 -62.8286,-10.8286 -85.6571,-32.5143 -22.8286,-21.6571 -37.5143,-54.1429 -44,-97.4857l-88 16c10.8286,59 35.1714,104.829 73.3429,137.343 38,32.4857 85.4857,48.6571 142.143,48.6571 39,0 75,-8.34286 107.857,-25.1714 33,-16.6571 58.1429,-39.4857 75.4857,-68.3429 17.5143,-29 26.1714,-59.6571 26.1714,-92.1429 0,-30.8571 -8.34286,-58.8571 -24.8286,-84.1714 -16.6857,-25.3429 -41.3429,-45.5143 -73.8286,-60.5143 42.3143,-9.65714 75.1429,-30 98.6571,-60.8286 23.3429,-30.6571 35,-69.3429 35,-115.486 0,-62.5143 -22.8286,-115.686 -68.3429,-159.171 -45.6571,-43.5143 -103.314,-65.1714 -173,-65.1714 -62.8286,0 -115,18.8286 -156.486,56.3429 -41.6857,37.4857 -65.3429,86 -71.1714,145.657z"/>
+   <glyph unicode="5" horiz-adv-x="556" d="M42 188l92 7c6.82857,-44.8286 22.6571,-78.5143 47.3429,-101.171 24.6571,-22.4857 54.8286,-33.8286 90.3143,-33.8286 42.8286,0 78.6857,16 107.829,47.8286 29,32 43.5143,74.3429 43.5143,127 0,50.1714 -13.8286,89.6571 -41.6571,118.657 -27.8571,29 -64.6857,43.5143 -110.514,43.5143 -28.4857,0 -54,-6.51429 -76.6571,-19.5143 -22.5143,-13 -40.1714,-29.8286 -53.1714,-50.4857l-83 12 69 368 355 0 0 -84 -284.829 0 -38.1714 -193.171c42.8286,30.1714 87.8286,45.1714 134.829,45.1714 62.3429,0 115,-21.6571 157.829,-65 42.8286,-43.3429 64.3429,-99 64.3429,-167 0,-64.8286 -18.8286,-120.829 -56.5143,-168 -45.8286,-58 -108.486,-87 -187.829,-87 -65,0 -118,18.3429 -159.171,54.8286 -41.1429,36.5143 -64.6571,84.8286 -70.4857,145.171z"/>
+   <glyph unicode="6" horiz-adv-x="556" d="M499 541l-87 -7c-7.82857,34.4857 -19,59.6571 -33.5143,75.3429 -23.8286,25.1429 -53.3143,37.6571 -88.3143,37.6571 -28.1714,0 -53.1714,-7.82857 -74.6857,-23.5143 -27.6571,-20.1429 -49.3143,-49.4857 -65.4857,-88.1429 -16,-38.8571 -24.3429,-94 -25,-165.514 21.1714,32.1714 47.1714,56.1714 77.8286,71.6571 30.6571,15.6857 62.6571,23.5143 96.3429,23.5143 58.6571,0 108.657,-21.6571 150,-64.8286 41.1714,-43.1714 61.8286,-98.8286 61.8286,-167.343 0,-45 -9.65714,-86.6571 -29,-125.343 -19.5143,-38.6571 -46,-68.1429 -80,-88.6571 -33.8286,-20.4857 -72.3429,-30.8286 -115.343,-30.8286 -73.1714,0 -133,27 -179.314,80.8286 -46.1714,53.8286 -69.3429,142.657 -69.3429,266.343 0,138.314 25.6571,239 76.8286,301.829 44.6571,54.6571 104.829,82 180.657,82 56.3429,0 102.686,-15.8286 138.686,-47.3429 36,-31.4857 57.6571,-75 64.8286,-130.657zm-360 -309c0,-30.3429 6.48571,-59.3429 19.3429,-87 12.8286,-27.6571 30.8286,-48.6571 53.6571,-63.1714 23,-14.4857 47.3429,-21.8286 73.1714,-21.8286 37.4857,0 69.4857,15 96,45 26.4857,30 39.8286,70.6571 39.8286,122.171 0,49.4857 -13.1714,88.4857 -39.3429,117 -26.1714,28.4857 -59.4857,42.8286 -100,42.8286 -39.6571,0 -73.4857,-14.3429 -101.171,-42.8286 -27.6571,-28.5143 -41.4857,-65.8286 -41.4857,-112.171z"/>
+   <glyph unicode="8" horiz-adv-x="556" d="M177.486 388.171c-36.4857,13.3143 -63.4857,32.4857 -81.1429,57.1714 -17.5143,24.8286 -26.3429,54.4857 -26.3429,89 0,52.1429 18.6571,95.8286 56,131.314 37.4857,35.5143 87.1714,53.3429 149.343,53.3429 62.3143,0 112.657,-18.1714 150.657,-54.5143 38,-36.3143 57,-80.4857 57,-132.657 0,-33.1714 -8.65714,-62.1714 -26,-86.6571 -17.3429,-24.6857 -43.6571,-43.6857 -79.1714,-57 43.8286,-14.3429 77,-37.3429 99.8286,-69.3429 22.8286,-31.8286 34.3429,-69.8286 34.3429,-114.171 0,-61.1714 -21.6571,-112.486 -64.8286,-154.171 -43.3429,-41.6571 -100.171,-62.4857 -170.686,-62.4857 -70.4857,0 -127.314,20.8286 -170.657,62.6571 -43.1714,41.8286 -64.8286,94 -64.8286,156.514 0,46.4857 11.8286,85.4857 35.4857,116.829 23.6857,31.4857 57.3429,52.8286 101,64.1714zm-17.4857 149.314c0,-34 10.8286,-61.6571 32.3429,-83.1429 21.6571,-21.5143 50,-32.3429 85.1429,-32.3429 34.1714,0 61.8571,10.6571 83.3429,32 21.5143,21.3429 32.1714,47.4857 32.1714,78.4857 0,32.3429 -11,59.5143 -33.1714,81.5143 -22,22 -49.8286,33 -83.3429,33 -33.8286,0 -61.6571,-10.8286 -83.6571,-32.3429 -21.8286,-21.4857 -32.8286,-47.1714 -32.8286,-77.1714zm-29 -331c0,-25.1429 5.82857,-49.3143 17.4857,-72.8286 11.6857,-23.3143 29.3429,-41.4857 53,-54.3143 23.5143,-12.8571 48.8571,-19.3429 75.6857,-19.3429 42.3143,0 77,13.4857 104.171,40.4857 27.1429,27 40.6571,61.3429 40.6571,103 0,42.3429 -14,77.3429 -41.8286,105 -28,27.6857 -63.3429,41.5143 -105.829,41.5143 -41.6857,0 -75.8571,-13.6571 -102.857,-41 -27,-27.3429 -40.4857,-61.5143 -40.4857,-102.514z"/>
+   <glyph unicode="9" horiz-adv-x="556" d="M55 166l84 7c7.17143,-39.6571 20.8286,-68.3429 41,-86.1714 20.1714,-17.8286 46,-26.8286 77.6571,-26.8286 27,0 50.6857,6.17143 71.1714,18.6571 20.5143,12.3429 37.1714,28.8286 50,49.6857 12.8286,20.6571 23.6571,48.6571 32.5143,83.8286 8.82857,35.1714 13.1429,71 13.1429,107.486 0,3.82857 -0.142857,9.82857 -0.485714,17.6857 -17.5143,-28 -41.5143,-50.8571 -71.8286,-68.1714 -30.3429,-17.5143 -63.3429,-26.1714 -98.6857,-26.1714 -59.1429,0 -109.143,21.4857 -150.143,64.4857 -40.8571,42.8571 -61.3429,99.5143 -61.3429,169.857 0,72.6571 21.3429,131 64.1714,175.314 42.6571,44.1714 96.1714,66.3429 160.657,66.3429 46.3429,0 88.8286,-12.5143 127.514,-37.6571 38.4857,-25 67.6571,-60.6857 87.6571,-107.171 20,-46.3429 30,-113.514 30,-201.343 0,-91.4857 -9.82857,-164.343 -29.6571,-218.486 -19.8571,-54.3429 -49.5143,-95.5143 -88.6857,-123.857 -39.1714,-28.3143 -85,-42.4857 -137.657,-42.4857 -56,0 -101.657,15.4857 -137.171,46.6571 -35.3429,31.1714 -56.6571,75 -63.8286,131.343zm359 315.829c0,50.3429 -13.3429,90.3429 -40,119.829 -26.5143,29.5143 -58.8286,44.3429 -96.8286,44.3429 -39.3429,0 -73.3429,-15.8286 -102,-47.6571 -28.8286,-31.8571 -43.1714,-73.1714 -43.1714,-123.857 0,-45.4857 13.6571,-82.4857 40.8286,-110.829 27.3429,-28.4857 61.3429,-42.6571 101.829,-42.6571 40.6857,0 74,14.1714 100.171,42.6571 26.1714,28.3429 39.1714,67.8286 39.1714,118.171z"/>
+  </font>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66587.01" y1="78532.72" x2="66675.4" y2= "78556.75" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66675.4" y1="78556.75" x2="66675.4" y2= "78428.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66675.4" y1="78428.18" x2="66852.33" y2= "78476.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66852.33" y1="78476.26" x2="66852.33" y2= "78604.83" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66852.33" y1="78604.83" x2="68355.82" y2= "79013.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109874.64" y1="36613.73" x2="67168.94" y2= "78295.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110191.28" y1="36321.26" x2="111681.49" y2= "36726.27" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111681.49" y1="36726.27" x2="68355.82" y2= "79013.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111681.49" y1="36726.27" x2="111681.49" y2= "36751.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111681.49" y1="36751.97" x2="68357.56" y2= "79037.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110684.24" y1="40553.2" x2="111082.9" y2= "40164.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109439.39" y1="43088.24" x2="110684.24" y2= "40553.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109439.39" y1="43088.24" x2="70376.86" y2= "81214.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="70376.86" y1="81214.47" x2="69132.01" y2= "81109.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="69132.01" y1="81109.45" x2="68955.16" y2= "81282.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68665.32" y1="80793.47" x2="68496.38" y2= "80958.37" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111570.96" y1="36859.85" x2="111570.96" y2= "38916.25" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111150.93" y1="39326.21" x2="111570.96" y2= "38916.25" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="39413.74" x2="111150.93" y2= "39326.21" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="39426.56" x2="110876.66" y2= "39413.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111150.93" y1="39953.17" x2="111150.93" y2= "39422.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="40220.86" x2="111150.93" y2= "39953.17" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="40233.68" x2="110876.66" y2= "40220.86" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109757.48" y1="36378.75" x2="67242.23" y2= "77874.93" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66852.29" y1="78255.53" x2="66675.4" y2= "78428.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109874.64" y1="36485.16" x2="67168.94" y2= "78167.23" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66662.18" y1="78459.35" x2="66587.01" y2= "78532.72" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68929.43" y1="81794.42" x2="68952.77" y2= "81771.65" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68929.43" y1="80937.27" x2="68929.43" y2= "81794.42" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68486.07" y1="81370" x2="68929.43" y2= "80937.27" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68486.07" y1="81370" x2="68486.07" y2= "81327.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="80871.59" x2="68486.07" y2= "81327.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="81771.65" x2="68952.77" y2= "80871.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68486.07" y1="81327.1" x2="66363.42" y2= "80750.21" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66363.42" y1="80793.11" x2="68486.07" y2= "81370" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66363.42" y1="80750.21" x2="66363.42" y2= "80793.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="80871.59" x2="68665.32" y2= "80793.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66417.7" y1="80697.24" x2="66363.42" y2= "80750.21" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68929.43" y1="81794.42" x2="66806.78" y2= "81217.53" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66806.78" y1="80913.57" x2="66806.78" y2= "81217.53" />
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="66895.24,81023.02 66886.54,81021.37 66878.17,81021.39 66870.28,81022.9 66863.26,81025.97 66857.18,81030.4 66852.39,81036.16 66848.95,81043 66847.06,81050.73 66846.66,81059.06 66847.81,81067.74 66850.5,81076.52 66854.62,81085.09 66860.09,81093.18 66866.63,81100.52 66874.12,81106.87 66882.29,81112.1 66890.86,81115.93 66899.63,81118.31 66908.2,81119.14 66916.36,81118.35 66923.85,81116.07 66930.4,81112.29 66935.86,81107.17 66939.98,81100.83 66942.68,81093.52 66943.82,81085.46 66943.42,81076.92 66941.53,81068.16 66938.09,81059.45 66933.3,81051.08 66927.22,81043.35 66920.21,81036.47 66912.31,81030.66 66903.95,81026.1 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="68840.97,81551.82 68832.27,81550.18 68823.9,81550.19 68816.01,81551.71 68808.99,81554.77 68802.92,81559.2 68798.12,81564.97 68794.68,81571.81 68792.73,81579.52 68792.39,81587.86 68793.54,81596.55 68796.24,81605.32 68800.35,81613.9 68805.82,81621.99 68812.36,81629.33 68819.85,81635.68 68828.02,81640.91 68836.59,81644.74 68845.29,81647.1 68853.93,81647.95 68862.09,81647.16 68869.58,81644.88 68876.13,81641.1 68881.52,81635.96 68885.71,81629.64 68888.41,81622.33 68889.55,81614.27 68889.15,81605.73 68887.19,81596.95 68883.82,81588.26 68878.96,81579.87 68872.96,81572.16 68865.94,81565.28 68858.04,81559.47 68849.68,81554.91 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="68792.32,81157.14 68793.13,81148.93 68795.43,81141.44 68799.2,81134.82 68804.33,81129.41 68810.61,81125.23 68817.9,81122.57 68825.92,81121.41 68834.43,81121.89 68843.13,81123.87 68851.77,81127.33 68860.07,81132.2 68867.76,81138.28 68874.57,81145.43 68880.31,81153.33 68884.76,81161.8 68887.87,81170.56 68889.42,81179.28 68889.42,81187.78 68887.87,81195.67 68884.76,81202.74 68880.31,81208.79 68874.57,81213.57 68867.76,81217.02 68860.07,81218.91 68851.77,81219.27 68843.13,81218.04 68834.43,81215.28 68825.92,81211.14 68817.9,81205.62 68810.61,81199 68804.33,81191.41 68799.2,81183.21 68795.43,81174.53 68793.13,81165.8 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="68864.31,81194.74 68855.6,81191.59 68847.24,81187.09 68839.34,81181.29 68832.32,81174.41 68826.25,81166.61 68821.46,81158.31 68818.02,81149.59 68816.06,81140.82 68815.72,81132.29 68816.87,81124.23 68819.57,81116.92 68823.69,81110.59 68825.91,81108.25 "/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M68864.31 81194.74c13.28,4.28 27.84,1.32 38.39,-7.81"/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="68825.91,81536.79 68821.46,81542.19 68818.02,81549.04 68816.06,81556.74 68815.72,81565.09 68816.87,81573.77 68819.57,81582.55 68823.69,81591.12 68829.15,81599.21 68835.7,81606.55 68843.19,81612.9 68851.35,81618.13 68859.92,81621.96 68868.63,81624.33 68877.26,81625.17 68885.43,81624.38 68892.92,81622.1 68899.46,81618.32 68902.7,81615.54 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="69242.54" y1="81139.49" x2="69132.01" y2= "81109.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68816.28" y1="81555.53" x2="68821.48" y2= "81550.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68953.71" y1="81421.4" x2="69242.54" y2= "81139.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109548.09" y1="43171.47" x2="110801.02" y2= "40619.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109548.09" y1="43171.47" x2="70489.21" y2= "81294.13" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="70489.21" y1="81294.13" x2="69236.29" y2= "81188.42" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="69236.29" y1="81188.42" x2="68953.27" y2= "81464.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68856.9" y1="81558.72" x2="68823.71" y2= "81591.12" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="69242.54" y1="81139.49" x2="70487.38" y2= "81244.51" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109549.92" y1="43118.28" x2="70487.38" y2= "81244.51" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110794.76" y1="40583.24" x2="109549.92" y2= "43118.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111261.46" y1="40127.73" x2="110794.76" y2= "40583.24" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111261.46" y1="40170.57" x2="111261.46" y2= "40127.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110801.02" y1="40619.97" x2="111261.46" y2= "40170.57" />
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="66880.18,81007.99 66875.73,81013.38 66872.29,81020.23 66870.4,81027.95 66869.99,81036.28 66871.14,81044.96 66873.84,81053.74 66877.96,81062.31 66883.42,81070.41 66889.97,81077.74 66897.46,81084.09 66905.62,81089.32 66914.19,81093.15 66922.96,81095.54 66931.53,81096.36 66939.7,81095.57 66947.19,81093.29 66953.73,81089.51 66956.97,81086.73 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="70487.38" y1="81244.51" x2="70376.86" y2= "81214.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109549.92" y1="43118.28" x2="109439.39" y2= "43088.24" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110794.76" y1="40583.24" x2="110684.24" y2= "40553.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="39413.74" x2="111438.38" y2= "39404.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111436.16" y1="39417.94" x2="111438.38" y2= "39404.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110878.96" y1="39427.18" x2="111436.16" y2= "39417.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="39413.74" x2="110878.96" y2= "39427.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="39404.33" x2="111150.93" y2= "39326.21" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="39426.56" x2="110878.96" y2= "39427.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111261.46" y1="40127.73" x2="111222.19" y2= "40117.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="40220.86" x2="111438.38" y2= "40031.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="40031.29" x2="111438.38" y2= "40044.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110876.66" y1="40233.68" x2="111438.38" y2= "40044.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111150.93" y1="39953.17" x2="111438.38" y2= "40031.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="40031.29" x2="111438.38" y2= "39417.21" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="39404.33" x2="111905.08" y2= "38948.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111905.08" y1="38991.72" x2="111905.08" y2= "38948.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111905.08" y1="38991.72" x2="111461.72" y2= "39424.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111461.72" y1="39424.46" x2="111461.72" y2= "40281.61" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111461.72" y1="40281.61" x2="111438.38" y2= "40304.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="40304.39" x2="111438.38" y2= "40044.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="39417.21" x2="111436.16" y2= "39417.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111905.08" y1="38948.82" x2="111848.46" y2= "38933.44" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111438.38" y1="40304.39" x2="111192.77" y2= "40237.63" />
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="111301.61,40090.25 111301.34,40097.83 111302.48,40106.51 111305.18,40115.29 111309.3,40123.86 111314.77,40131.95 111321.31,40139.29 111328.8,40145.64 111336.96,40150.87 111345.53,40154.7 111354.24,40157.07 111362.88,40157.91 111371.04,40157.12 111378.53,40154.84 111385.07,40151.06 111390.47,40145.92 111394.66,40139.61 111397.36,40132.29 111398.5,40124.24 111398.1,40115.69 111396.14,40106.92 111392.77,40098.22 111387.91,40089.84 111381.9,40082.12 111374.89,40075.24 111366.99,40069.44 111365.71,40068.63 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="111349.92,39727.48 111358.62,39729.06 111366.99,39729.11 111374.89,39727.6 111381.9,39724.53 111387.91,39720.02 111392.77,39714.34 111396.14,39707.47 111398.1,39699.77 111398.5,39691.44 111397.36,39682.76 111394.66,39673.98 111390.47,39665.39 111385.07,39657.32 111378.53,39649.98 111371.04,39643.56 111362.88,39638.4 111354.24,39634.55 111345.53,39632.18 111336.96,39631.36 111328.8,39632.08 111321.31,39634.43 111314.77,39638.21 111309.3,39643.33 111305.18,39649.66 111302.48,39656.97 111301.34,39665.03 111301.67,39673.56 111303.63,39682.33 111307.07,39691.05 111311.86,39699.35 111317.94,39707.15 111324.95,39714.02 111332.85,39719.83 111341.22,39724.33 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="111324.6,39644.33 111325.41,39636.12 111326.22,39632.74 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="111396.94,39705.19 111392.35,39706.1 111384.05,39706.46 111375.41,39705.23 111366.71,39702.47 111358.21,39698.33 111350.18,39692.81 111342.89,39686.19 111336.62,39678.59 111331.49,39670.4 111327.71,39661.72 111325.41,39652.99 111324.6,39644.33 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="111411.65,40125.5 111408.41,40128.29 111401.86,40132.07 111394.37,40134.35 111386.21,40135.14 111377.57,40134.29 111368.87,40131.93 111360.3,40128.09 111352.13,40122.87 111344.64,40116.51 111338.1,40109.18 111332.63,40101.09 111328.52,40092.51 111325.82,40083.74 111325.48,40082.21 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61368.91" y1="77114.55" x2="59865.41" y2= "76705.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61368.91" y1="76985.98" x2="61368.91" y2= "77114.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61545.83" y1="77034.07" x2="61368.91" y2= "76985.98" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61545.83" y1="77162.64" x2="61545.83" y2= "77034.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61634.22" y1="77186.66" x2="61545.83" y2= "77162.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61862.45" y1="76725.04" x2="61915.94" y2= "76672.83" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61935.78" y1="76653.47" x2="104568.14" y2= "35042.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61368.91" y1="76985.98" x2="61545.79" y2= "76813.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61935.74" y1="76432.74" x2="104467.51" y2= "34920.43" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61862.45" y1="76853.61" x2="104568.14" y2= "35171.54" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61635.96" y1="77210.67" x2="104959.89" y2= "34925.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61634.22" y1="77186.66" x2="104959.89" y2= "34899.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104959.89" y1="34925.18" x2="104959.89" y2= "34899.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104959.89" y1="34899.48" x2="104884.72" y2= "34879.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104341.27" y1="38356.87" x2="103962.64" y2= "38726.42" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103962.64" y1="38726.42" x2="102717.8" y2= "41261.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="63655.26" y1="79387.69" x2="102717.8" y2= "41261.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62410.42" y1="79282.66" x2="63655.26" y2= "79387.69" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.16" y1="79457.62" x2="62410.42" y2= "79282.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61774.78" y1="79131.58" x2="61943.72" y2= "78966.68" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104849.36" y1="37089.47" x2="104849.36" y2= "35033.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104849.36" y1="37089.47" x2="104429.34" y2= "37499.42" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="37564.31" x2="104429.34" y2= "37499.42" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="37577.19" x2="104138.2" y2= "37564.31" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104429.34" y1="37584.44" x2="104429.34" y2= "38132.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="38416.3" x2="104429.34" y2= "38132.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="38429.18" x2="104138.2" y2= "38416.3" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59865.41" y1="76705.94" x2="103191.08" y2= "34418.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104304.63" y1="34721.4" x2="103191.08" y2= "34418.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.17" y1="79044.81" x2="61764.47" y2= "79500.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59641.89" y1="78923.44" x2="61764.47" y2= "79500.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59696.17" y1="78870.47" x2="59641.89" y2= "78923.44" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61943.72" y1="78966.68" x2="62231.17" y2= "79044.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62207.84" y1="79967.64" x2="62231.17" y2= "79944.86" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62207.84" y1="79110.48" x2="62207.84" y2= "79967.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61764.47" y1="79543.22" x2="62207.84" y2= "79110.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61764.47" y1="79500.32" x2="61764.47" y2= "79543.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.17" y1="79944.86" x2="62231.17" y2= "79044.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61764.47" y1="79543.22" x2="59641.89" y2= "78966.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59641.89" y1="78966.34" x2="59641.89" y2= "78923.44" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60085.25" y1="79086.8" x2="60085.25" y2= "79390.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60085.25" y1="79390.76" x2="62207.84" y2= "79967.64" />
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="62119.38,79725.04 62110.67,79723.39 62102.3,79723.41 62094.41,79724.92 62087.39,79727.99 62081.39,79732.44 62076.53,79738.18 62073.15,79745.04 62071.2,79752.75 62070.79,79761.08 62071.94,79769.76 62074.64,79778.54 62078.75,79787.11 62084.22,79795.2 62090.77,79802.54 62098.26,79808.89 62106.42,79814.12 62115.06,79817.97 62123.76,79820.34 62132.33,79821.16 62140.5,79820.37 62147.99,79818.09 62154.53,79814.31 62160,79809.19 62164.11,79802.86 62166.81,79795.55 62167.96,79787.49 62167.62,79778.96 62165.66,79770.19 62162.22,79761.47 62157.43,79753.1 62151.36,79745.37 62144.34,79738.49 62136.45,79732.69 62128.08,79728.12 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="62119.38,79296.43 62110.67,79294.85 62102.3,79294.8 62094.41,79296.31 62087.39,79299.38 62081.39,79303.89 62076.53,79309.57 62073.15,79316.43 62071.2,79324.14 62070.79,79332.47 62071.94,79341.15 62074.64,79349.93 62078.75,79358.5 62084.22,79366.59 62090.77,79373.93 62098.26,79380.35 62106.42,79385.51 62115.06,79389.36 62123.76,79391.73 62132.33,79392.55 62140.5,79391.83 62147.99,79389.48 62154.53,79385.7 62160,79380.58 62164.11,79374.25 62166.81,79366.94 62167.96,79358.88 62167.62,79350.35 62165.66,79341.58 62162.22,79332.86 62157.43,79324.56 62151.36,79316.76 62144.34,79309.88 62136.45,79304.08 62128.08,79299.58 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="60173.64,79196.23 60165.01,79194.6 60156.57,79194.6 60148.75,79196.13 60141.66,79199.18 60135.66,79203.63 60130.8,79209.37 60127.42,79216.24 60125.47,79223.94 60125.06,79232.27 60126.21,79240.95 60128.91,79249.73 60133.09,79258.32 60138.49,79266.4 60145.1,79273.75 60152.59,79280.1 60160.76,79285.33 60169.33,79289.16 60178.03,79291.53 60186.6,79292.35 60194.76,79291.56 60202.25,79289.28 60208.8,79285.5 60214.27,79280.38 60218.38,79274.05 60221.08,79266.74 60222.23,79258.68 60221.89,79250.15 60219.93,79241.38 60216.49,79232.66 60211.7,79224.3 60205.7,79216.58 60198.61,79209.69 60190.78,79203.9 60182.35,79199.32 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="62181.1,79360.14 62177.87,79362.93 62171.32,79366.71 62163.83,79369.05 62155.67,79369.78 62147.1,79368.95 62138.39,79366.59 62129.76,79362.73 62121.59,79357.57 62114.1,79351.15 62107.56,79343.82 62102.09,79335.73 62097.97,79327.15 62095.28,79318.38 62094.13,79309.69 62094.53,79301.37 62096.49,79293.66 62099.86,79286.79 62104.32,79281.46 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="62181.1,79788.75 62177.87,79791.54 62171.32,79795.32 62163.83,79797.6 62155.67,79798.39 62147.1,79797.56 62138.39,79795.2 62129.76,79791.34 62121.59,79786.12 62114.1,79779.76 62107.56,79772.43 62102.09,79764.34 62097.97,79755.76 62095.28,79746.99 62094.13,79738.3 62094.53,79729.98 62096.49,79722.27 62099.86,79715.4 62104.32,79710.01 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62094.68" y1="79728.75" x2="62099.88" y2= "79723.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.13" y1="79595.56" x2="62520.94" y2= "79312.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62520.94" y1="79312.7" x2="63765.79" y2= "79417.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="63765.79" y1="79417.73" x2="102828.32" y2= "41291.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104073.17" y1="38756.46" x2="102828.32" y2= "41291.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104539.86" y1="38300.95" x2="104073.17" y2= "38756.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104539.86" y1="38343.78" x2="104539.86" y2= "38300.95" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104079.42" y1="38793.19" x2="104539.86" y2= "38343.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102826.49" y1="41344.68" x2="104079.42" y2= "38793.19" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="63767.62" y1="79467.34" x2="102826.49" y2= "41344.68" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="63767.62" y1="79467.34" x2="62514.69" y2= "79361.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62514.69" y1="79361.64" x2="62231.13" y2= "79638.4" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62135.3" y1="79731.93" x2="62102.11" y2= "79764.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62410.42" y1="79282.66" x2="62520.94" y2= "79312.7" />
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="60235.44,79259.96 60232.13,79262.73 60225.59,79266.51 60218.1,79268.79 60209.94,79269.58 60201.37,79268.75 60192.66,79266.39 60184.09,79262.55 60175.93,79257.33 60168.44,79250.98 60161.83,79243.62 60156.43,79235.55 60152.24,79226.95 60149.54,79218.18 60148.4,79209.49 60148.8,79201.17 60150.76,79193.46 60154.13,79186.6 60158.59,79181.2 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="63655.26" y1="79387.69" x2="63765.79" y2= "79417.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102717.8" y1="41261.45" x2="102828.32" y2= "41291.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103962.64" y1="38726.42" x2="104073.17" y2= "38756.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104429.34" y1="37499.42" x2="104716.78" y2= "37577.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="37564.31" x2="104716.78" y2= "37577.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104714.33" y1="37591" x2="104716.78" y2= "37577.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104140.63" y1="37577.85" x2="104714.33" y2= "37591" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="37564.31" x2="104140.63" y2= "37577.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="37577.19" x2="104140.63" y2= "37577.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104516.31" y1="38294.55" x2="104539.86" y2= "38300.95" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104429.34" y1="38132.14" x2="104716.78" y2= "38210.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="38416.3" x2="104716.78" y2= "38210.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104716.78" y1="38210.26" x2="104716.78" y2= "38223.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104138.2" y1="38429.18" x2="104716.78" y2= "38223.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104716.78" y1="38210.26" x2="104716.78" y2= "37590.43" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104716.78" y1="37577.55" x2="105183.48" y2= "37122.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="105183.48" y1="37122.04" x2="105183.48" y2= "37164.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="105183.48" y1="37164.94" x2="104740.12" y2= "37597.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104740.12" y1="37597.67" x2="104740.12" y2= "38454.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104740.12" y1="38454.82" x2="104716.78" y2= "38477.6" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104716.78" y1="38477.6" x2="104716.78" y2= "38223.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104716.78" y1="37590.43" x2="104714.33" y2= "37591" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="105126.87" y1="37106.65" x2="105183.48" y2= "37122.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104471.17" y1="38410.85" x2="104716.78" y2= "38477.6" />
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="104651,38246.59 104653.29,38248.46 104660.31,38255.34 104666.38,38263.07 104671.17,38271.43 104674.61,38280.15 104676.57,38288.92 104676.91,38297.45 104675.76,38305.51 104673.06,38312.82 104668.94,38319.16 104663.48,38324.28 104656.93,38328.06 104649.44,38330.34 104641.28,38331.13 104632.71,38330.3 104624,38327.93 104615.37,38324.08 104607.2,38318.86 104599.71,38312.5 104593.17,38305.17 104587.7,38297.08 104583.59,38288.5 104580.89,38279.72 104579.81,38271.91 "/>
+  <polygon fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="104628.32,37806.39 104637.03,37809.54 104645.39,37814.04 104653.29,37819.85 104660.31,37826.73 104666.38,37834.52 104671.17,37842.82 104674.61,37851.54 104676.57,37860.31 104676.91,37868.84 104675.76,37876.9 104673.06,37884.21 104668.94,37890.55 104663.48,37895.67 104656.93,37899.45 104649.44,37901.79 104641.28,37902.52 104632.71,37901.69 104624,37899.32 104615.37,37895.47 104607.2,37890.31 104599.71,37883.89 104593.17,37876.56 104587.7,37868.47 104583.59,37859.89 104580.89,37851.12 104579.74,37842.43 104580.15,37834.11 104582.1,37826.4 104585.48,37819.53 104590.33,37813.86 104596.34,37809.34 104603.36,37806.28 104611.25,37804.76 104619.62,37804.81 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="104690.05,37870.11 104686.81,37872.89 104680.27,37876.67 104672.78,37879.02 104664.61,37879.74 104656.04,37878.91 104647.34,37876.55 104638.7,37872.7 104630.54,37867.54 104623.05,37861.12 104616.5,37853.78 104611.04,37845.69 104606.92,37837.12 104604.22,37828.34 104603.08,37819.66 104603.48,37811.33 104605.44,37803.62 104608.81,37796.76 104613.26,37791.43 "/>
+  <polyline fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" points="104690.05,38298.72 104686.81,38301.5 104680.27,38305.28 104672.78,38307.56 104664.61,38308.35 104656.04,38307.52 104647.34,38305.16 104638.7,38301.31 104630.54,38296.08 104623.05,38289.73 104616.5,38282.39 104611.04,38274.3 104606.92,38265.73 104605.84,38262.69 "/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104966.89" y1="34892.65" x2="104959.89" y2= "34899.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104966.89" y1="34892.65" x2="105130.52" y2= "37157.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="105130.52" y1="37157.14" x2="105123.52" y2= "37163.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104959.89" y1="34899.48" x2="105123.52" y2= "37163.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="105123.52" y1="37163.97" x2="104849.36" y2= "37089.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103198.08" y1="34411.93" x2="103191.08" y2= "34418.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103198.08" y1="34411.93" x2="104304.61" y2= "34712.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104884.77" y1="34870.33" x2="104966.89" y2= "34892.65" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68512.45" y1="81284.77" x2="68519.45" y2= "81277.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68512.45" y1="81284.77" x2="68348.82" y2= "79020.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68348.82" y1="79020.28" x2="68355.82" y2= "79013.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68519.45" y1="81277.94" x2="68355.82" y2= "79013.45" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68348.82" y1="79020.28" x2="66580.01" y2= "78539.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66416.38" y1="80715.11" x2="67373.05" y2= "80975.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67463.87" y1="80999.79" x2="68512.45" y2= "81284.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66580.01" y1="78539.55" x2="66416.38" y2= "80715.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66580.01" y1="78539.55" x2="66587.01" y2= "78532.72" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68355.82" y1="79013.45" x2="66587.01" y2= "78532.72" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61790.85" y1="79457.99" x2="61797.85" y2= "79451.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61790.85" y1="79457.99" x2="61627.22" y2= "77193.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61627.22" y1="77193.49" x2="61634.22" y2= "77186.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61797.85" y1="79451.15" x2="61634.22" y2= "77186.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61627.22" y1="77193.49" x2="59858.41" y2= "76712.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59694.78" y1="78888.32" x2="60694.17" y2= "79159.93" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60784.92" y1="79184.6" x2="61790.85" y2= "79457.99" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59858.41" y1="76712.77" x2="59694.78" y2= "78888.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="59858.41" y1="76712.77" x2="59865.41" y2= "76705.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61634.22" y1="77186.66" x2="59865.41" y2= "76705.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111845.11" y1="38990.76" x2="111570.96" y2= "38916.25" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111681.49" y1="36726.27" x2="111845.11" y2= "38990.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111688.49" y1="36719.44" x2="111681.49" y2= "36726.27" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111688.49" y1="36719.44" x2="111852.11" y2= "38983.93" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111852.11" y1="38983.93" x2="111845.11" y2= "38990.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110191.27" y1="36312.52" x2="111688.49" y2= "36719.44" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="80290.04" x2="68665.32" y2= "80793.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="80290.04" x2="68952.77" y2= "80871.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68958.89" y1="80303.58" x2="68955.22" y2= "80880.25" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68955.22" y1="80880.25" x2="68952.77" y2= "80871.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="80290.04" x2="68958.89" y2= "80303.58" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="80871.59" x2="68952.77" y2= "80884.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="80884.47" x2="68955.22" y2= "80880.25" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="81154.91" x2="68952.77" y2= "81517.19" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68952.77" y1="81504.3" x2="68952.77" y2= "81517.19" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="81142.02" x2="68952.77" y2= "81504.3" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="81154.91" x2="68956.46" y2= "81142.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="68956.46" y1="81142.02" x2="68952.76" y2= "81145.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62220.36" y1="78532.28" x2="62233.39" y2= "79054.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62233.39" y1="79054.09" x2="62231.17" y2= "79044.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62217.99" y1="78518.82" x2="62231.17" y2= "79044.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62217.99" y1="78518.82" x2="62220.36" y2= "78532.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62217.99" y1="78518.82" x2="61943.72" y2= "78966.68" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.17" y1="79044.81" x2="62231.17" y2= "79057.69" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.17" y1="79057.69" x2="62233.39" y2= "79054.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="62231.17" y1="79671.76" x2="62231.17" y2= "79684.58" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M60696.51 78988.6c-1.53,1.86 -2.35,4.19 -2.34,6.59"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M60784.9 79012.62c-1.53,1.86 -2.35,4.19 -2.33,6.6"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60822.24" y1="78976.18" x2="60822.24" y2= "78980.5" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60822.24" y1="78980.5" x2="60784.9" y2= "79016.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60784.9" y1="79231.18" x2="60784.9" y2= "79016.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60784.9" y1="79231.18" x2="60782.57" y2= "79233.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60782.57" y1="79233.46" x2="60782.57" y2= "79019.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60822.24" y1="78976.18" x2="60784.9" y2= "79012.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60694.17" y1="79209.43" x2="60782.57" y2= "79233.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60694.17" y1="78995.19" x2="60694.17" y2= "79209.43" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60733.84" y1="78952.16" x2="60822.24" y2= "78976.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="60733.84" y1="78952.16" x2="60696.51" y2= "78988.6" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M67375.39 80803.78c-1.52,1.85 -2.35,4.19 -2.33,6.59"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M67463.85 80827.82c-1.52,1.86 -2.35,4.19 -2.33,6.59"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67501.19" y1="80791.38" x2="67501.19" y2= "80795.69" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67501.19" y1="80795.69" x2="67463.85" y2= "80832.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67463.85" y1="81046.38" x2="67463.85" y2= "80832.14" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67463.85" y1="81046.38" x2="67461.52" y2= "81048.65" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67461.52" y1="81048.65" x2="67461.52" y2= "80834.41" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67501.19" y1="80791.38" x2="67463.85" y2= "80827.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67373.06" y1="81024.61" x2="67461.52" y2= "81048.65" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67373.06" y1="80810.37" x2="67373.06" y2= "81024.61" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67412.73" y1="80767.34" x2="67501.19" y2= "80791.38" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67412.73" y1="80767.34" x2="67375.39" y2= "80803.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66865.62" y1="77836.96" x2="66865.62" y2= "78608.44" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67000.67" y1="77457.09" x2="66865.62" y2= "77836.96" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67168.97" y1="77292.83" x2="67000.67" y2= "77457.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67168.97" y1="78312.36" x2="67168.97" y2= "77292.83" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66865.62" y1="78608.44" x2="67168.97" y2= "78312.36" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67000.67" y1="77457.09" x2="66987.38" y2= "77453.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66865.62" y1="77836.96" x2="66852.33" y2= "77833.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66987.38" y1="77453.48" x2="66852.33" y2= "77833.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66865.62" y1="78608.44" x2="66852.33" y2= "78604.83" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66852.33" y1="77833.34" x2="66852.33" y2= "78604.83" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67168.97" y1="77292.83" x2="67155.68" y2= "77289.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67155.68" y1="77289.22" x2="66987.38" y2= "77453.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104378" y1="35007.84" x2="104378" y2= "34896.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104378" y1="34100.33" x2="104391.22" y2= "34103.92" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104391.22" y1="34994.89" x2="104391.22" y2= "34899.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104391.22" y1="34103.92" x2="104559.52" y2= "33939.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104559.52" y1="33939.66" x2="104679.69" y2= "34043.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104378" y1="34100.33" x2="104546.29" y2= "33936.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104546.29" y1="33936.07" x2="104559.52" y2= "33939.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109887.93" y1="35597.81" x2="109874.64" y2= "35594.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109887.93" y1="36414.16" x2="109887.93" y2= "36617.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109887.93" y1="36617.34" x2="109874.64" y2= "36613.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109874.64" y1="36410.54" x2="109874.64" y2= "36613.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109887.93" y1="36617.34" x2="110191.28" y2= "36321.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110056.23" y1="35433.55" x2="109887.93" y2= "35597.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110191.28" y1="35549.78" x2="110056.23" y2= "35433.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110191.28" y1="36321.26" x2="110191.28" y2= "35549.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110056.23" y1="35433.55" x2="110042.93" y2= "35429.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110042.93" y1="35429.94" x2="109874.64" y2= "35594.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61355.68" y1="76339.47" x2="61368.91" y2= "76343.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61355.68" y1="76339.47" x2="61490.74" y2= "75959.61" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61490.74" y1="75959.61" x2="61503.96" y2= "75963.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61368.91" y1="76343.07" x2="61503.96" y2= "75963.2" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61503.96" y1="75963.2" x2="61672.26" y2= "75798.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61672.26" y1="75798.94" x2="61672.26" y2= "76035.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61368.91" y1="77114.55" x2="61368.91" y2= "76343.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61355.68" y1="77110.96" x2="61368.91" y2= "77114.55" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61355.68" y1="77110.96" x2="61355.68" y2= "76339.47" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61659.03" y1="75795.35" x2="61672.26" y2= "75798.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61490.74" y1="75959.61" x2="61659.03" y2= "75795.35" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66675.4" y1="78556.75" x2="66675.4" y2= "77785.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66675.4" y1="77785.26" x2="66810.46" y2= "77405.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66810.46" y1="77405.39" x2="66978.75" y2= "77241.13" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66978.75" y1="77241.13" x2="66978.75" y2= "77477.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66662.18" y1="77781.67" x2="66675.4" y2= "77785.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66662.18" y1="77781.67" x2="66797.23" y2= "77401.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66797.23" y1="77401.8" x2="66810.46" y2= "77405.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66662.18" y1="78553.15" x2="66675.4" y2= "78556.75" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66662.18" y1="78553.15" x2="66662.18" y2= "77781.67" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66965.53" y1="77237.54" x2="66978.75" y2= "77241.13" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66797.23" y1="77401.8" x2="66965.53" y2= "77237.54" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104581.37" y1="34155.6" x2="104568.14" y2= "34152.01" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104581.37" y1="34951.35" x2="104581.37" y2= "35175.13" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104581.37" y1="35175.13" x2="104568.14" y2= "35171.54" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104568.14" y1="34947.75" x2="104568.14" y2= "35171.54" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104749.66" y1="33991.34" x2="104581.37" y2= "34155.6" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104884.72" y1="34107.57" x2="104749.66" y2= "33991.34" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104884.72" y1="34879.05" x2="104884.72" y2= "34107.57" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104581.37" y1="35175.13" x2="104884.72" y2= "34879.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104749.66" y1="33991.34" x2="104736.44" y2= "33987.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104736.44" y1="33987.74" x2="104568.14" y2= "34152.01" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109684.49" y1="36450.03" x2="109684.49" y2= "36358.87" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109684.49" y1="35542.52" x2="109697.72" y2= "35546.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109697.72" y1="36437.08" x2="109697.72" y2= "36362.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109684.49" y1="35542.52" x2="109852.79" y2= "35378.26" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109852.79" y1="35378.26" x2="109866.01" y2= "35381.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109697.72" y1="35546.11" x2="109866.01" y2= "35381.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109866.01" y1="35381.85" x2="109986.18" y2= "35485.27" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61694.11" y1="76014.88" x2="61680.88" y2= "76011.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61694.11" y1="76014.88" x2="61559.06" y2= "76394.75" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61559.06" y1="76394.75" x2="61545.83" y2= "76391.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61680.88" y1="76011.29" x2="61545.83" y2= "76391.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61559.06" y1="76394.75" x2="61559.06" y2= "77166.23" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61862.41" y1="75850.62" x2="61694.11" y2= "76014.88" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61862.41" y1="76870.15" x2="61862.41" y2= "75850.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61559.06" y1="77166.23" x2="61862.41" y2= "76870.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61559.06" y1="77166.23" x2="61545.83" y2= "77162.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61545.83" y1="76391.15" x2="61545.83" y2= "77162.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61862.41" y1="75850.62" x2="61849.18" y2= "75847.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61849.18" y1="75847.02" x2="61680.88" y2= "76011.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66924.23" y1="77226.31" x2="67210.26" y2= "77304.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67210.26" y1="77304.05" x2="67235.3" y2= "77335.12" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67235.3" y1="77335.12" x2="67235.3" y2= "78097.9" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67235.3" y1="78097.9" x2="67168.97" y2= "78079.88" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66899.2" y1="77302.3" x2="66899.2" y2= "77243.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66899.2" y1="77243.77" x2="66924.23" y2= "77226.31" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67217.26" y1="77297.22" x2="67210.26" y2= "77304.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67217.26" y1="77297.22" x2="67242.3" y2= "77328.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67242.3" y1="77328.28" x2="67235.3" y2= "77335.12" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66931.23" y1="77219.48" x2="66924.23" y2= "77226.31" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66931.23" y1="77219.48" x2="67217.26" y2= "77297.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67242.3" y1="78091.07" x2="67235.3" y2= "78097.9" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="67242.3" y1="77328.28" x2="67242.3" y2= "78091.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66906.2" y1="77236.94" x2="66899.2" y2= "77243.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="66906.2" y1="77236.94" x2="66931.23" y2= "77219.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104640.7" y1="34967.51" x2="104640.7" y2= "34204.72" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104304.67" y1="34876.18" x2="104640.7" y2= "34967.51" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104304.67" y1="34113.4" x2="104304.67" y2= "34876.18" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104329.7" y1="34095.94" x2="104304.67" y2= "34113.4" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104615.66" y1="34173.66" x2="104329.7" y2= "34095.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104640.7" y1="34204.72" x2="104615.66" y2= "34173.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104640.7" y1="34204.72" x2="104647.7" y2= "34197.89" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104615.66" y1="34173.66" x2="104622.66" y2= "34166.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104647.7" y1="34197.89" x2="104622.66" y2= "34166.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104329.7" y1="34095.94" x2="104336.7" y2= "34089.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104622.66" y1="34166.82" x2="104336.7" y2= "34089.11" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104640.7" y1="34967.51" x2="104647.7" y2= "34960.68" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104647.7" y1="34960.68" x2="104647.7" y2= "34197.89" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104304.67" y1="34113.4" x2="104311.67" y2= "34106.56" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="104336.7" y1="34089.11" x2="104311.67" y2= "34106.56" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109922.23" y1="35615.87" x2="109636.2" y2= "35538.13" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109947.26" y1="35646.93" x2="109922.23" y2= "35615.87" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109947.26" y1="36430.32" x2="109947.26" y2= "35646.93" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109611.16" y1="36338.97" x2="109947.26" y2= "36430.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109611.16" y1="35555.59" x2="109611.16" y2= "36338.97" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109636.2" y1="35538.13" x2="109611.16" y2= "35555.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109947.26" y1="35646.93" x2="109954.26" y2= "35640.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109922.23" y1="35615.87" x2="109929.23" y2= "35609.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109954.26" y1="35640.1" x2="109929.23" y2= "35609.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109636.2" y1="35538.13" x2="109643.2" y2= "35531.3" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109929.23" y1="35609.03" x2="109643.2" y2= "35531.3" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109947.26" y1="36430.32" x2="109954.26" y2= "36423.49" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109954.26" y1="36423.49" x2="109954.26" y2= "35640.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109611.16" y1="35555.59" x2="109618.16" y2= "35548.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109643.2" y1="35531.3" x2="109618.16" y2= "35548.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61928.73" y1="75892.91" x2="61928.73" y2= "76676.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61928.73" y1="76676.29" x2="61862.41" y2= "76658.27" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61592.7" y1="75860.11" x2="61592.7" y2= "75801.58" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61592.7" y1="75801.58" x2="61617.67" y2= "75784.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61617.67" y1="75784.1" x2="61903.77" y2= "75861.86" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61903.77" y1="75861.86" x2="61928.73" y2= "75892.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61910.77" y1="75855.03" x2="61903.77" y2= "75861.86" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61910.77" y1="75855.03" x2="61935.74" y2= "75886.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61935.74" y1="75886.07" x2="61928.73" y2= "75892.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61624.67" y1="75777.27" x2="61617.67" y2= "75784.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61624.67" y1="75777.27" x2="61910.77" y2= "75855.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61935.74" y1="76669.46" x2="61928.73" y2= "76676.29" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61935.74" y1="75886.07" x2="61935.74" y2= "76669.46" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61599.71" y1="75794.75" x2="61592.7" y2= "75801.58" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="61599.71" y1="75794.75" x2="61624.67" y2= "75777.27" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="60782.57" y1="79019.22" x2="60694.17" y2= "78995.19" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="60696.51" y1="78988.6" x2="60784.9" y2= "79012.62" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="67461.52" y1="80834.41" x2="67373.06" y2= "80810.37" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="67375.39" y1="80803.78" x2="67463.85" y2= "80827.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="962.5" y1="7987.8" x2="1012.5" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="6937.76" x2="12.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="7987.8" x2="1012.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="6987.81" x2="12.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="962.5" y1="6987.81" x2="962.5" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="6987.81" x2="962.5" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="7669.19" x2="92047.5" y2= "7684.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="7669.19" x2="92047.5" y2= "6952.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="6952.79" x2="92042.75" y2= "6951.12" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92042.75" y1="6951.12" x2="92047.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="6937.76" x2="93047.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="6987.81" x2="93047.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="6987.81" x2="92097.5" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92097.5" y1="6987.81" x2="92097.5" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="7987.8" x2="92047.5" y2= "7684.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92097.5" y1="7987.8" x2="92047.5" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="6742.53" x2="92042.75" y2= "6951.12" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="6727.57" x2="91459.82" y2= "6742.53" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="6727.57" x2="92047.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="7684.15" x2="91459.82" y2= "7669.19" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="7684.15" x2="92047.5" y2= "7684.15" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91459.82" y1="7669.19" x2="92047.5" y2= "7669.19" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="4377.8" x2="112.5" y2= "4377.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="4347.81" x2="112.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="88376.23" y1="9437.76" x2="91060.9" y2= "7887.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1999.11" y1="7887.78" x2="1012.5" y2= "7887.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="2012.5" y1="7837.8" x2="4679.86" y2= "9377.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91047.51" y1="7837.8" x2="88380.15" y2= "9377.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="7837.8" x2="91047.51" y2= "7837.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91060.9" y1="7887.78" x2="92047.5" y2= "7887.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="4683.79" y1="9437.76" x2="1999.11" y2= "7887.78" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="88380.15" y1="9377.8" x2="4679.86" y2= "9377.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="7837.8" x2="2012.5" y2= "7837.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="88376.23" y1="9437.76" x2="4683.79" y2= "9437.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="4197.82" x2="762.5" y2= "4197.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="6937.76" x2="97.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="4347.81" x2="112.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="6937.76" x2="112.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="4347.81" x2="92947.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="4347.81" x2="92962.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="4347.81" x2="92947.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="6952.79" x2="1017.77" y2= "6950.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1017.77" y1="6950.66" x2="1012.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="6937.76" x2="1012.5" y2= "6952.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="6681.95" x2="1636.34" y2= "6696.98" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="6681.95" x2="1012.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="6696.98" x2="1017.77" y2= "6950.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="7690.94" x2="1636.34" y2= "7675.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="7675.91" x2="1012.5" y2= "7690.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="7675.91" x2="1012.5" y2= "7675.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1636.34" y1="7690.94" x2="1012.5" y2= "7690.94" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93042.51" y1="6687.82" x2="93042.51" y2= "6937.76" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M93047.5 6687.8c0,-1.33 -0.52,-2.6 -1.46,-3.54 -0.94,-0.93 -2.21,-1.46 -3.54,-1.46"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="6687.82" x2="93042.51" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="6687.82" x2="93047.5" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="6682.79" x2="93042.51" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="6687.82" x2="17.5" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="17.5" y1="6937.76" x2="17.5" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="6937.76" x2="12.5" y2= "6687.82" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M17.5 6682.8c-1.32,0 -2.59,0.53 -3.53,1.46 -0.94,0.94 -1.47,2.21 -1.47,3.54"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="6682.79" x2="17.5" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="3158.39" x2="112.5" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="4347.81" x2="762.5" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="3158.39" x2="401.89" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="3447.77" x2="112.5" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="3158.39" x2="92297.51" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="4100.62" x2="92297.51" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="3447.77" x2="92658.12" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="4347.81" x2="92947.5" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="3186.7" x2="762.5" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="3186.7" x2="777.5" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="3186.7" x2="762.5" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="4076.59" x2="762.5" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="3158.39" x2="762.5" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="3158.39" x2="777.5" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="3158.39" x2="762.5" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="4100.62" x2="762.5" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="4076.59" x2="777.5" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="3186.7" x2="92297.51" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="3186.7" x2="92282.5" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="3158.39" x2="92297.51" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="3186.7" x2="92297.51" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="4100.62" x2="92297.51" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="4100.62" x2="92282.5" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="4100.62" x2="92297.51" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="52159.31" y1="2404.88" x2="52159.31" y2= "10191.33" />
+  <g id="_2146742007648">
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="92947.5" y1="3447.8" x2="92947.5" y2= "108.41" />
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="112.5" y1="3447.8" x2="112.5" y2= "108.41" />
+   <g>
+    <line fill="none" fill-rule="nonzero" stroke="black" stroke-width="7.62" stroke-miterlimit="22.9256" x1="112.5" y1="358.41" x2="92947.5" y2= "358.41" />
+    <polygon id="1" fill="black" points="485.81,458.44 112.5,358.41 485.81,258.38 "/>
+    <polygon id="2" fill="black" points="92574.19,458.44 92947.5,358.41 92574.19,258.38 "/>
+   </g>
+  </g>
+  <text x="46009.11" y="2451.65"  fill="black" font-weight="normal" font-size="2350px" font-family="Arial">928,35 </text>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28688.05" x2="92282.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28888.1" x2="112.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28888.1" x2="92282.5" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28888.1" x2="92947.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28988.04" x2="92947.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28988.04" x2="112.5" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28988.04" x2="92947.5" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="26988.07" x2="92947.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28673.02" x2="112.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28673.02" x2="92947.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91663.61" y1="28988.04" x2="92047.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92042.24" y1="29188.08" x2="92047.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91658.34" y1="28988.04" x2="92042.24" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="28988.04" x2="92047.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="26788.03" x2="1012.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1374.16" y1="26988.07" x2="1012.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1017.26" y1="26788.03" x2="1012.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1378.92" y1="26988.07" x2="1017.26" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="29188.08" x2="12.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="26788.03" x2="12.5" y2= "27977.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="28077.85" x2="12.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="28988.04" x2="1012.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="26788.03" x2="12.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="26788.03" x2="93047.5" y2= "27946.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="28046.5" x2="93047.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="29188.08" x2="93047.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="26788.03" x2="93047.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="26788.03" x2="92047.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34688.04" x2="112.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34888.08" x2="777.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34688.04" x2="777.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34688.04" x2="92947.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="36588.06" x2="112.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34903.03" x2="112.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34903.03" x2="92947.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34588.09" x2="112.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34588.09" x2="112.5" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34588.09" x2="92947.5" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1396.4" y1="34588.09" x2="1012.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1017.77" y1="34388.05" x2="1012.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1401.67" y1="34588.09" x2="1017.77" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="34588.09" x2="1012.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="36788.03" x2="92047.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91685.85" y1="36588.06" x2="92047.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92042.75" y1="36788.03" x2="92047.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91681.09" y1="36588.06" x2="92042.75" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="34388.05" x2="93047.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="36788.03" x2="93047.5" y2= "35598.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="35498.28" x2="93047.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="34588.09" x2="92047.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92047.5" y1="36788.03" x2="93047.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="36788.03" x2="1012.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="36788.03" x2="12.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="36788.03" x2="12.5" y2= "35629.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="35529.64" x2="12.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1012.5" y1="34388.05" x2="12.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="34588.09" x2="112.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="34403.08" x2="112.5" y2= "34403.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34588.09" x2="112.5" y2= "34403.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="34588.09" x2="97.5" y2= "34403.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="36773.08" x2="112.5" y2= "36773.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="36588.06" x2="112.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="36773.08" x2="112.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="36773.08" x2="97.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="36588.06" x2="97.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="26803.06" x2="92947.5" y2= "26803.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="26803.06" x2="92962.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="26988.07" x2="92947.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="26803.06" x2="92947.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="26988.07" x2="92962.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="28988.04" x2="92947.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="29173.05" x2="92947.5" y2= "29173.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28988.04" x2="92947.5" y2= "29173.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="28988.04" x2="92962.5" y2= "29173.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="36588.06" x2="92947.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="36588.06" x2="92962.5" y2= "36773.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="36773.08" x2="92947.5" y2= "36773.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="36588.06" x2="92947.5" y2= "36773.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="34588.09" x2="92947.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="34588.09" x2="92962.5" y2= "36588.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="34403.08" x2="92947.5" y2= "34403.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="34403.08" x2="92962.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34403.08" x2="92947.5" y2= "34588.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="28988.04" x2="112.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="28988.04" x2="97.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="26988.07" x2="112.5" y2= "26988.07" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="26803.06" x2="112.5" y2= "26803.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="26988.07" x2="97.5" y2= "26803.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="26988.07" x2="112.5" y2= "26803.06" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="29173.05" x2="112.5" y2= "29173.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="29173.05" x2="97.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="29173.05" x2="112.5" y2= "28988.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1396.4" y1="36588.06" x2="1012.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1401.67" y1="36588.06" x2="1017.77" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1017.77" y1="36788.03" x2="1012.5" y2= "36788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91663.61" y1="26988.07" x2="92047.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91658.34" y1="26988.07" x2="92042.24" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92042.24" y1="26788.03" x2="92047.5" y2= "26788.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1374.16" y1="28988.04" x2="1012.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1378.92" y1="28988.04" x2="1017.26" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="1017.26" y1="29188.08" x2="1012.5" y2= "29188.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91685.85" y1="34588.09" x2="92047.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="91681.09" y1="34588.09" x2="92042.75" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92042.75" y1="34388.05" x2="92047.5" y2= "34388.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="35498.28" x2="93047.5" y2= "35598.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="35598.22" x2="93042.51" y2= "35598.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93042.51" y1="35498.28" x2="93047.5" y2= "35498.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="35598.22" x2="93042.51" y2= "35598.22" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="35498.28" x2="93042.51" y2= "35498.28" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="28077.85" x2="12.5" y2= "27977.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="27977.91" x2="17.5" y2= "27977.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="17.5" y1="28077.85" x2="12.5" y2= "28077.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="27977.91" x2="17.5" y2= "27977.91" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="28077.85" x2="17.5" y2= "28077.85" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="35629.66" x2="12.5" y2= "35529.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="17.5" y1="35629.66" x2="12.5" y2= "35629.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="12.5" y1="35529.64" x2="17.5" y2= "35529.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="35629.66" x2="17.5" y2= "35629.66" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="97.5" y1="35529.64" x2="17.5" y2= "35529.64" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="27946.48" x2="93047.5" y2= "28046.5" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93047.5" y1="28046.5" x2="93042.51" y2= "28046.5" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="93042.51" y1="27946.48" x2="93047.5" y2= "27946.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="27946.48" x2="93042.51" y2= "27946.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92962.5" y1="28046.5" x2="93042.51" y2= "28046.5" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28673.02" x2="92658.12" y2= "28673.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28673.02" x2="92658.12" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28688.05" x2="92658.12" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28673.02" x2="92297.51" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28673.02" x2="92947.5" y2= "28673.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28673.02" x2="92947.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28688.05" x2="92947.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34903.03" x2="762.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34903.03" x2="401.89" y2= "34903.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34903.03" x2="401.89" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34888.08" x2="401.89" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34903.03" x2="112.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34903.03" x2="112.5" y2= "34903.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34888.08" x2="112.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28673.02" x2="112.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28673.02" x2="401.89" y2= "28673.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28673.02" x2="401.89" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28688.05" x2="401.89" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28673.02" x2="762.5" y2= "28673.02" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28673.02" x2="762.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28688.05" x2="762.5" y2= "28688.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34903.03" x2="92947.5" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34903.03" x2="92658.12" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34888.08" x2="92658.12" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34903.03" x2="92658.12" y2= "34903.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34903.03" x2="92297.51" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34888.08" x2="92297.51" y2= "34888.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34903.03" x2="92297.51" y2= "34903.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28903.05" x2="92947.5" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28903.05" x2="92658.12" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28903.05" x2="92658.12" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="28888.1" x2="92658.12" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28903.05" x2="92297.51" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28903.05" x2="92297.51" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="28888.1" x2="92297.51" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34673.08" x2="112.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34673.08" x2="401.89" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34688.04" x2="401.89" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="34673.08" x2="401.89" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34673.08" x2="762.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34688.04" x2="762.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="34673.08" x2="762.5" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28903.05" x2="401.89" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28903.05" x2="401.89" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28888.1" x2="401.89" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28903.05" x2="762.5" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28903.05" x2="112.5" y2= "28903.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="112.5" y1="28903.05" x2="112.5" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="401.89" y1="28888.1" x2="112.5" y2= "28888.1" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34673.08" x2="92297.51" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34673.08" x2="92658.12" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34673.08" x2="92658.12" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34688.04" x2="92658.12" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34673.08" x2="92947.5" y2= "34673.08" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92947.5" y1="34673.08" x2="92947.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92658.12" y1="34688.04" x2="92947.5" y2= "34688.04" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28978.05" x2="92297.51" y2= "28978.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28949.74" x2="92297.51" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28978.05" x2="92297.51" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28978.05" x2="92282.5" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28626.33" x2="92297.51" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28949.74" x2="92297.51" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28949.74" x2="92282.5" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28598.03" x2="92297.51" y2= "28598.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="28626.33" x2="92297.51" y2= "28598.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="28626.33" x2="92282.5" y2= "28598.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34626.39" x2="762.5" y2= "34626.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34626.39" x2="777.5" y2= "34949.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34949.73" x2="762.5" y2= "34949.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34626.39" x2="762.5" y2= "34949.73" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34949.73" x2="777.5" y2= "34978.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34978.03" x2="762.5" y2= "34978.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34949.73" x2="762.5" y2= "34978.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34598.09" x2="762.5" y2= "34598.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="34598.09" x2="762.5" y2= "34626.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="34598.09" x2="777.5" y2= "34626.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28598.03" x2="762.5" y2= "28598.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28598.03" x2="777.5" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28626.33" x2="762.5" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28598.03" x2="762.5" y2= "28626.33" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28626.33" x2="777.5" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28949.74" x2="762.5" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28626.33" x2="762.5" y2= "28949.74" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28949.74" x2="777.5" y2= "28978.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="777.5" y1="28978.05" x2="762.5" y2= "28978.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="762.5" y1="28949.74" x2="762.5" y2= "28978.05" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34626.32" x2="92297.51" y2= "34626.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34626.32" x2="92282.5" y2= "34598.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34598.09" x2="92297.51" y2= "34598.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34626.32" x2="92297.51" y2= "34598.09" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34978.03" x2="92297.51" y2= "34978.03" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34949.8" x2="92297.51" y2= "34949.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34978.03" x2="92297.51" y2= "34949.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34978.03" x2="92282.5" y2= "34949.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92297.51" y1="34949.8" x2="92297.51" y2= "34626.32" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="92282.5" y1="34949.8" x2="92282.5" y2= "34626.32" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="93042.51" y1="35598.22" x2="93042.51" y2= "35498.28" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="17.5" y1="27977.91" x2="17.5" y2= "28077.85" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="17.5" y1="35529.64" x2="17.5" y2= "35629.66" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="93042.51" y1="28046.5" x2="93042.51" y2= "27946.48" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101268.15" y1="6987.81" x2="101268.15" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103668.21" y1="6937.76" x2="103668.21" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101268.15" y1="6937.76" x2="103668.21" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103668.21" y1="6987.81" x2="101268.15" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103168.18" y1="4197.82" x2="103168.18" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103368.22" y1="4197.82" x2="103168.18" y2= "4197.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103368.22" y1="4347.81" x2="103368.22" y2= "4197.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101268.15" y1="7987.8" x2="103668.21" y2= "7987.8" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M103623.19 7787.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M103623.19 7287.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M101423.19 7787.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M101423.19 7287.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103668.21" y1="6987.81" x2="103668.21" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101268.15" y1="6987.81" x2="101268.15" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101283.95" y1="6927.62" x2="101268.15" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101468.2" y1="9437.76" x2="103468.17" y2= "9437.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103468.17" y1="9437.76" x2="103468.17" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101468.2" y1="9437.76" x2="101468.2" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103652.26" y1="6925.25" x2="103668.21" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111268.15" y1="6937.76" x2="108868.18" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111268.15" y1="6987.81" x2="111268.15" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="108868.18" y1="6987.81" x2="111268.15" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="108868.18" y1="6937.76" x2="108868.18" y2= "6987.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="4347.81" x2="109168.16" y2= "4197.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="4197.82" x2="109368.21" y2= "4197.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109368.21" y1="4197.82" x2="109368.21" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111268.15" y1="7987.8" x2="108868.18" y2= "7987.8" />
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M109023.19 7787.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M109023.19 7287.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M111223.19 7787.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <path fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" d="M111223.19 7287.8c0,-30.38 -24.63,-55 -55,-55 -30.38,0 -55,24.62 -55,55 0,30.38 24.62,55 55,55 30.37,0 55,-24.62 55,-55z"/>
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111268.15" y1="6987.81" x2="111268.15" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="108868.18" y1="6987.81" x2="108868.18" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="108884.05" y1="6925.25" x2="108868.18" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111068.19" y1="9437.76" x2="109068.22" y2= "9437.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111068.19" y1="9437.76" x2="111068.19" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109068.22" y1="9437.76" x2="109068.22" y2= "7987.8" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111068.19" y1="4347.81" x2="109068.22" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111253.2" y1="6937.76" x2="111068.19" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109068.22" y1="4347.81" x2="108883.21" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103468.17" y1="4347.81" x2="101468.2" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103653.18" y1="6937.76" x2="103468.17" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101468.2" y1="4347.81" x2="101283.18" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="111252.29" y1="6925.25" x2="111268.15" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="101284.1" y1="6925.25" x2="101268.15" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103652.49" y1="6927.62" x2="103668.21" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102557.98" y1="6937.76" x2="102557.98" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102458.04" y1="6937.76" x2="102557.98" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102458.04" y1="6687.82" x2="102458.04" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102458.04" y1="6682.79" x2="102557.98" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102557.98" y1="6682.79" x2="102557.98" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="102458.04" y1="6687.82" x2="102458.04" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110009.76" y1="6687.82" x2="110009.76" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110009.76" y1="6682.79" x2="110109.78" y2= "6682.79" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110109.78" y1="6682.79" x2="110109.78" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110009.76" y1="6937.76" x2="110109.78" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110009.76" y1="6687.82" x2="110009.76" y2= "6937.76" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="110109.78" y1="6937.76" x2="110109.78" y2= "6687.82" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="3158.39" x2="109368.21" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="3158.39" x2="109383.16" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="3447.77" x2="109368.21" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109368.21" y1="3158.39" x2="109368.21" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="3447.77" x2="109383.16" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109368.21" y1="3447.77" x2="109368.21" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103153.15" y1="3447.77" x2="103168.18" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103153.15" y1="3158.39" x2="103168.18" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103168.18" y1="3447.77" x2="103168.18" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103153.15" y1="3447.77" x2="103153.15" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103168.18" y1="4347.81" x2="103168.18" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103153.15" y1="4347.81" x2="103153.15" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109153.21" y1="4347.81" x2="109153.21" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109153.21" y1="3447.77" x2="109168.16" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="4347.81" x2="109168.16" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109153.21" y1="3447.77" x2="109153.21" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109153.21" y1="3158.39" x2="109168.16" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="3447.77" x2="109168.16" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103383.18" y1="3447.77" x2="103368.22" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103383.18" y1="3447.77" x2="103383.18" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103368.22" y1="3447.77" x2="103368.22" y2= "4347.81" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103383.18" y1="3158.39" x2="103368.22" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103383.18" y1="3158.39" x2="103383.18" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103368.22" y1="3158.39" x2="103368.22" y2= "3447.77" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109106.52" y1="3158.39" x2="109153.21" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="3158.39" x2="109368.21" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="3158.39" x2="109429.85" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109429.85" y1="3158.39" x2="109458.16" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109458.16" y1="3186.7" x2="109458.16" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109458.16" y1="4076.59" x2="109383.16" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109368.21" y1="4076.59" x2="109168.16" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109153.21" y1="4076.59" x2="109078.21" y2= "4076.59" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109078.21" y1="3186.7" x2="109106.52" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109078.21" y1="4076.59" x2="109078.21" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103458.17" y1="3186.7" x2="103458.17" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103078.15" y1="4100.62" x2="103078.15" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103078.15" y1="3186.7" x2="103106.46" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103106.46" y1="3158.39" x2="103153.15" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103168.18" y1="3158.39" x2="103368.22" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103383.18" y1="3158.39" x2="103429.87" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103429.87" y1="3158.39" x2="103458.17" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103458.17" y1="4100.62" x2="103383.18" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103368.22" y1="4100.62" x2="103168.18" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="103153.15" y1="4100.62" x2="103078.15" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109429.93" y1="3158.39" x2="109429.85" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109106.52" y1="3158.39" x2="109106.44" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109078.21" y1="4100.62" x2="109153.21" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109168.16" y1="4100.62" x2="109368.21" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109383.16" y1="4100.62" x2="109458.16" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109106.44" y1="3158.39" x2="109078.21" y2= "3186.7" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109078.21" y1="4076.59" x2="109078.21" y2= "4100.62" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109458.16" y1="3186.7" x2="109429.93" y2= "3158.39" />
+  <line fill="none" stroke="black" stroke-width="25" stroke-linejoin="bevel" stroke-miterlimit="22.9256" x1="109458.16" y1="4100.62" x2="109458.16" y2= "4076.59" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="102557.98" y1="6687.82" x2="102458.04" y2= "6687.82" />
+  <line fill="none" stroke="gray" stroke-width="18" stroke-linejoin="bevel" stroke-miterlimit="22.9256" stroke-dasharray="1134.000000 216.000000 216.000000 216.000000 216.000000 216.000000" x1="110109.78" y1="6687.82" x2="110009.76" y2= "6687.82" />
+  <g>
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="109368.19" y1="3158.41" x2="109368.19" y2= "2557.21" />
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="103368.19" y1="3158.41" x2="103368.19" y2= "2557.21" />
+   <g>
+    <line fill="none" fill-rule="nonzero" stroke="black" stroke-width="7.62" stroke-miterlimit="22.9256" x1="103368.19" y1="2807.21" x2="109368.19" y2= "2807.21" />
+    <polygon id="1" fill="black" points="103741.5,2907.24 103368.19,2807.21 103741.5,2707.18 "/>
+    <polygon id="2" fill="black" points="108994.88,2907.24 109368.19,2807.21 108994.88,2707.18 "/>
+   </g>
+  </g>
+  <text x="103445.33" y="2500.45"  fill="black" font-weight="normal" font-size="2350px" font-family="Arial">{left_side_width}</text>
+  <g>
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="101468.19" y1="9437.8" x2="100018.19" y2= "9437.8" />
+   <line fill="none" stroke="black" stroke-width="2" stroke-miterlimit="22.9256" x1="101468.19" y1="4347.8" x2="100018.19" y2= "4347.8" />
+   <g>
+    <line fill="none" fill-rule="nonzero" stroke="black" stroke-width="7.62" stroke-miterlimit="22.9256" x1="100268.19" y1="4347.8" x2="100268.19" y2= "9437.8" />
+    <polygon id="1" fill="black" points="100168.16,4721.11 100268.19,4347.8 100368.22,4721.11 "/>
+    <polygon id="2" fill="black" points="100168.16,9064.49 100268.19,9437.8 100368.22,9064.49 "/>
+   </g>
+  </g>
+  <g transform="matrix(6.12323E-17 -1 1 6.12323E-17 59310.6 63273.8)">
+   <text x="53458.79" y="40350.83"  fill="black" font-weight="normal" font-size="2350px" font-family="Arial">50,90 </text>
+  </g>
+ </g>
+</svg>
