@@ -25,11 +25,13 @@
             <div class="menu_section">
                 <h3></h3>
                 <ul class="nav side-menu">
-                    <li><a href="<?=SITE_URL.'/offer/list'?>"><i class="fa fa-home"></i> Teklifler </a>
+                    <li><a href="<?=SITE_URL?>"><i class="fa fa-home"></i> Giriş </a>
                     </li>
-                    <li><a href="#"><i class="fa fa-home"></i> Siparişler </a>
+                    <li><a href="<?=SITE_URL.'/offer/list'?>"><i class="fa fa-file-text"></i> Teklifler </a>
                     </li>
-                    <li><a href="#"><i class="fa fa-home"></i> Üretim İşlemleri </a>
+                    <li><a href="#"><i class="fa fa-credit-card-alt"></i> Siparişler </a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-tasks"></i> Üretim İşlemleri </a>
                     </li>
                 </ul>
             </div>

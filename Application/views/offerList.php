@@ -5,7 +5,7 @@
                 <h3>Satış Teklifleri</h3>
             </div>
             <div class="title_right">
-                <div class="col-md-5 col-sm-5  form-group">
+                <div class="col-md-12 col-sm-12  form-group">
                     <ul class="nav navbar-right panel_toolbox">
                         <li class="dropleft">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

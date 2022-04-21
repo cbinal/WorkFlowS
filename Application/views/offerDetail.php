@@ -6,7 +6,7 @@
             </div>
 
             <div class="title_right">
-                <div class="col-md-5 col-sm-5  form-group">
+                <div class="col-md-12 col-sm-12  form-group">
                     <ul class="nav navbar-right panel_toolbox">
                         <li class="dropleft">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -246,7 +246,7 @@ $(document).ready(function() {
         "columnDefs": [
             { "visible": false, "targets": groupColumn },
             {"render": function ( data, type, row ) {
-				return parseInt(row[3])*parseInt(row[4]);
+				return formatMoney(parseInt(row[3])*parseInt(row[4]));
 			},
 			"targets": -1}
         ],
@@ -279,7 +279,6 @@ $(document).ready(function() {
  */               
             total = 0;
             $.each(data, function(index,value){
-                console.log('value: '+value[4]*value[3]);
                 total += value[3]*value[4];
             });
             // Total over this page
