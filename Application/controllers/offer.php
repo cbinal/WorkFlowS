@@ -22,10 +22,12 @@ class offer extends controller {
 
     public function new() {
         if (!$this->sessionManager->isLogged()) { helper::redirect(SITE_URL.'/login');}
-        $this->render('site/header');
+        $responseData["conditions"] = $this->model('offerModel')->conditions4New();
+        // echo json_encode($responseData);
+        $this->render('site/header_with_dt');
         $this->render('site/left_side');
         $this->render('site/top_side');
-        $this->render('offerNew');
+        $this->render('offerNew', $responseData);
         $this->render('site/footer');
     }
 

@@ -121,7 +121,51 @@
                                 </div>
                             </div>
                         </div>
+                </div>
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Genel Koşullar<small> </small></h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
                     </div>
+                    <div class="x_content"  id="general_conditions">
+                        <?php
+                        foreach($params["conditions"] as $key0=>$value0){
+                            // echo json_encode($value0)."<br><br>";
+                            echo "<div class='row'>";
+                            echo "<h4 class='col-md-12 border p-3'>".$value0["feature_group_name"]."</h4>";
+                            foreach($value0["data"] as $key1=>$value1){
+                                // echo json_encode($value1)."....<br><br>";
+                                if(!empty($value1["data"]) && isset($value1["data"]) && is_array($value1["data"])) {
+                                    // echo "burada";
+                                    $fieldType = $value1["field_type"];
+                                    $elementStart = "";
+                                    $elementfinish = "";
+                                    if($fieldType!=""){
+                                        $elementStart = "<".$fieldType." name='$fieldType-".$value1["id"]."' class='form-control'>";
+                                        $elementfinish = "</$fieldType>";
+                                    }
+                                    echo "<div class='col-md-2 m-3' style='vertical-align:middle;'><h5>".$value1["condition_name"]."</h5></div>";
+                                    echo "<div class='col-md-8 m-3'>";
+                                    echo $elementStart;
+                                    foreach($value1["data"] as $item2){
+                                        echo "<".$item2["field_type"]." class='col-md-6'>".$item2["value"]."</".$item2["field_type"].">";
+                                        if($item2["description"]!=""){
+                                            echo "<".$item2["field_type"]." class='col-md-5'>".$item2["description"]."</".$item2["field_type"].">";
+                                        }
+                                    }    
+                                    echo $elementfinish;
+                                    echo "</div>";
+                                }
+                            }
+                            echo "</div>"; // Açılan son tablonun kapanışı....
+                        }
+                        // echo json_encode($params);
+                        ?>
+                    </div>
+                </div>
                 <div class="x_panel">
                     <div class="x_title">
                         <h2>Teknik Detaylar<small> </small></h2>
@@ -132,46 +176,53 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="x_content"  id="technical_details">
-                        <div class="item form-group">
-                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">
-                                Ürün Seçiniz <span class="required">*</span>
-                            </label>
-                            <div class="col-md-6 col-sm-6 ">
-                                <select id="productSelect" name="product_id" class="form-control">
-                                    <option value="0">Ürün Seçiniz</option>
-                                </select>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">
+                                    Ürün Seçiniz <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <select id="productSelect" name="product_id" class="form-control">
+                                        <option value="0">Ürün Seçiniz</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item form-group">
-                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">
-                                Adet <span class="required">*</span>
-                            </label>
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                <input type="number" id="quantity" name="quantity" class="form-control">
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">
+                                    Adet <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <input type="number" id="quantity" name="quantity" class="form-control">
+                                </div>
                             </div>
-                        </div>
-                        </form>
-                        <div class="item form-group mb-3">
-                            <div class="col-md-6 col-sm-6 offset-md-3">
-                                <div class="ln_solid"></div>
-                                <button class="btn btn-primary" type="button" onclick="goTechnicalDetails();">Teknik Detayları Getir</button>
+                            </form>
+                            <div class="clearfix"></div>
+                            <form id="fconditions">
+                                <div class="form-group" id="conditionsContainer">
+                                    ..
+                                </div>
+                            </form> 
+                            <div class="item form-group mb-3">
+                                <div class="col-md-6 col-sm-6 offset-md-3">
+                                    <div class="ln_solid"></div>
+                                    <button class="btn btn-primary" type="button" onclick="goTechnicalDetails();">Teknik Detayları Getir</button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <form id="ftechnical_details">
-                            <div class="form-group" id="modulesContainer">
+                            
+                            <div class="clearfix"></div>
+                            <form id="ftechnical_details">
+                                <div class="form-group" id="modulesContainer">
 
-                            </div>
-                        </form> 
+                                </div>
+                            </form> 
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-sm-6 offset-md-3">
+                    <div class="ln_solid"></div>
+                    <button class="btn btn-primary" type="button" onclick="postForm();">Kaydet</button>
+                </div>
             </div>
-        <div class="col-md-6 col-sm-6 offset-md-3">
-            <div class="ln_solid"></div>
-            <button class="btn btn-primary" type="button" onclick="postForm();">Kaydet</button>
-        </div>
-    </div>
-</div>
+        </div>  
 <!-- jQuery -->
 <script src="<?=BUILD_PATH;?>/jquery/dist/jquery.min.js"></script>
 <script>

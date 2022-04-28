@@ -82,7 +82,7 @@ $pdf->SetY(50);
 
 // set some text to print
 $txt = <<<EOD
-FİYAT TEKLİFİ
+TEKLİF FORMU
 EOD;
 
 // print a block of text using Write()
@@ -99,9 +99,9 @@ $fields = [
     "city_name"=> "Şehir",
     "address"=> "Adres",
     "country"=> "Ülke",
-    "phone_number"=> "Telefon Numarası",
+    "phone_number"=> "Telefon",
     "fax_number"=> "Faks Numarası",
-    "gsm_number"=> "Mobil Telefon Numarası",
+    "gsm_number"=> "GSM",
     "email"=> "E-Posta",
     "tax_office"=> "Vergi Dairesi",
     "tax_number"=> "Vergi No.",
@@ -116,12 +116,14 @@ $tbl = <<<EOD
 EOD;
 foreach($params["heads"][0] as $key=>$value) {
     if(array_key_exists($key, $fields)){
-        $tbl .= <<<EOD
-        <tr>
-            <th style="width:30%; text-align:right;font-weight:bold;"><b>{$fields[$key]}</b> : </th>
-            <td style="width:70%;color:#555;">{$value}</td>
-        </tr>
-        EOD;
+        if($value!=""){
+            $tbl .= <<<EOD
+            <tr>
+                <th style="width:30%; text-align:right;font-weight:bold;"><b>{$fields[$key]}</b> : </th>
+                <td style="width:70%;color:#555;">{$value}</td>
+            </tr>
+            EOD;
+        }
     }
 }
 
@@ -129,9 +131,11 @@ $tbl .= <<<EOD
 </table>
 EOD;
 $pdf->writeHTML($tbl, true, false, false, false, '');
-$pdf->SetPageDesc('Teklif Üst Bilgileri',266,5);
-//============================ Yeni Sayfa ================================+
-
+$pdf->SetFont('arial','',9);
+$pdf->SetY(262);
+$pdf->Write(0, 'Yazıların okunmaması veya eksik olması halinde, lütfen göndereni uyarın. Teşekkür ederiz.', '', 0, 'C', true, 0, false, false, 0);
+$pdf->SetPageDesc('Genel Bilgiler',266,5);
+//============================ Özellik Sayfaları ================================+
 $pageID = 0;
 foreach($params["features"] as $item) {
     // echo json_encode($item);
@@ -146,12 +150,58 @@ foreach($params["features"] as $item) {
         $pdf->SetPageDesc('Teknik Detaylar',266,5);
         $pdf->SetY(175);
     }
-    $pdf->MultiCell(80, 0, $item["feature_name"], 0, 'L', 0, 0, 15, '', true);
-    $pdf->MultiCell(55, 0, $item["value"], 0, 'L', 0, 0, 100, '', true);
-    $pdf->MultiCell(55, 0, $item["description"], 0, 'L', 0, 0, 160, '', true);
-    $pdf->ln(6);
+    if($item["value"]!="") {
+        $pdf->MultiCell(60, 0, $item["feature_name"], 0, 'L', 0, 0, 15, '', true);
+        $pdf->MultiCell(45, 0, $item["value"], 0, 'L', 0, 0, 75, '', true);
+        $pdf->MultiCell(70, 0, $item["description"], 0, 'L', 0, 0, 120, '', true);
+        $pdf->ln(6);
+    }
 
 }
+
+$pdf->AddPage();
+
+$pdf->SetY(50);
+$pdf->SetFont('arialbd','',16);
+$pdf->Write(0, 'FİYAT TABLOSU', '', 0, 'C', true, 0, false, false, 0);
+$pdf->SetY(80);
+$pdf->MultiCell(180, 0, $params["details"][0]["feature_group_name"], 1, 'L', 0, 0, 15, '', true);
+$pdf->ln(7.5);
+
+$pdf->SetFont('arial','',12);
+
+$featureGroupID = $params["details"][0]["feature_group_id"];
+$totalPrice = 0;
+$subTotal = 0;
+foreach($params["details"] as $item){
+    if($featureGroupID != $item["feature_group_id"]){
+        $featureGroupID = $item["feature_group_id"];
+        $pdf->SetFont('arialbd','',16);
+        $pdf->MultiCell(155, 0, 'Toplam', 1, 'R', 0, 0, 15, '', true);
+        $pdf->MultiCell(25, 0, '$ '.$subTotal, 1, 'R', 0, 0, 170, '', true);
+        $pdf->ln(9);
+        $pdf->MultiCell(180, 0, $item["feature_group_name"], 1, 'L', 0, 0, 15, '', true);
+        $pdf->SetFont('arial','',12);
+        $pdf->ln(7.5);
+        $subTotal = 0;
+    }
+    if($item["price"]!=0 || $item["quantity"]!=0){
+        $totalPrice += $item["price"]*$item["quantity"];
+        $subTotal += $item["price"]*$item["quantity"];
+        $pdf->MultiCell(120, 0, $item["module_name"], 1, 'L', 0, 0, 15, '', true);
+        $pdf->MultiCell(10, 0, $item["quantity"], 1, 'R', 0, 0, 135, '', true);
+        $pdf->MultiCell(25, 0, '$ '.$item["price"], 1, 'R', 0, 0, 145, '', true);
+        $pdf->MultiCell(25, 0, '$ '.$item["price"]*$item["quantity"], 1, 'R', 0, 0, 170, '', true);
+        $pdf->ln(5.5);    
+    }
+}
+$pdf->SetFont('arialbd','',16);
+$pdf->MultiCell(155, 0, 'Toplam', 1, 'R', 0, 0, 15, '', true);
+$pdf->MultiCell(25, 0, '$ '.$subTotal, 1, 'R', 0, 0, 170, '', true);
+$pdf->ln(9);
+$pdf->MultiCell(155, 0, 'Genel Toplam', 1, 'R', 0, 0, 15, '', true);
+$pdf->MultiCell(25, 0, '$ '.$totalPrice, 1, 'R', 0, 0, 170, '', true);
+$pdf->ln(7.5);
 
 $pdf->Output('offer-'.$params['heads'][0]['reference_no'].'-'.$params['heads'][0]['revision_no'].'.pdf', 'I');
 //============================================================+
