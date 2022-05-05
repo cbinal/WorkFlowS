@@ -15,6 +15,10 @@
     <link href="<?=BUILD_PATH1;?>/font-awesome/css/font-awesome1.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="<?=BUILD_PATH;?>/nprogress/nprogress.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="<?=BUILD_PATH;?>/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="<?=BUILD_PATH;?>/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="<?=BUILD_PATH;?>/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="<?=CSS_PATH;?>/custom.css" rel="stylesheet">

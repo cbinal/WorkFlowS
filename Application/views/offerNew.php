@@ -22,11 +22,18 @@
                                 <a class="dropdown-item" href="#">Settings 2</a>
                             </div>
                         </li>
+                        <li style="margin-left:20px;">
+                            <a href="#" onclick="postForm();"><i class="fa fa-save"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="clearfix"></div>
+        <div id="alert-container">
+            
+        </div>
+
             <div class="row">
                 <div class="x_panel">
                     <div class="x_title" id="generalInformationTitle">
@@ -36,7 +43,7 @@
                         </ul>
                         <div class="clearfix"></div>
                     </div>
-                    <form id="offer-form" data-parsley-validate="" novalidate="" action="/offer/list" mothod="post">
+                    <form id="offer-form" data-parsley-validate="" novalidate="">
                         <div class="x_content" id="generalInformation">
                             <div class="item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3 label-align" for="reference_no">Referans No <span class="required">*</span>
@@ -90,13 +97,6 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="fax_number">Faks <span class="required">*</span>
-                                </label>
-                                <div class="col-md-6 col-sm-6 ">
-                                    <input type="text" id="fax_number" name="fax_number" required="required" class="form-control">
-                                </div>
-                            </div>
-                            <div class="item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3 label-align" for="gsm_number">Mobil  <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -121,50 +121,67 @@
                                 </div>
                             </div>
                         </div>
+                    </form>
                 </div>
                 <div class="x_panel">
                     <div class="x_title">
                         <h2>Genel Koşullar<small> </small></h2>
                         <ul class="nav navbar-right panel_toolbox">
+                            <li><a><i class="fa fa-refresh"></i></a></li>
                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
                         </ul>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="x_content"  id="general_conditions">
-                        <?php
-                        foreach($params["conditions"] as $key0=>$value0){
-                            // echo json_encode($value0)."<br><br>";
-                            echo "<div class='row'>";
-                            echo "<h4 class='col-md-12 border p-3'>".$value0["feature_group_name"]."</h4>";
-                            foreach($value0["data"] as $key1=>$value1){
-                                // echo json_encode($value1)."....<br><br>";
-                                if(!empty($value1["data"]) && isset($value1["data"]) && is_array($value1["data"])) {
-                                    // echo "burada";
-                                    $fieldType = $value1["field_type"];
-                                    $elementStart = "";
-                                    $elementfinish = "";
-                                    if($fieldType!=""){
-                                        $elementStart = "<".$fieldType." name='$fieldType-".$value1["id"]."' class='form-control'>";
-                                        $elementfinish = "</$fieldType>";
-                                    }
-                                    echo "<div class='col-md-2 m-3' style='vertical-align:middle;'><h5>".$value1["condition_name"]."</h5></div>";
-                                    echo "<div class='col-md-8 m-3'>";
-                                    echo $elementStart;
-                                    foreach($value1["data"] as $item2){
-                                        echo "<".$item2["field_type"]." class='col-md-6'>".$item2["value"]."</".$item2["field_type"].">";
-                                        if($item2["description"]!=""){
-                                            echo "<".$item2["field_type"]." class='col-md-5'>".$item2["description"]."</".$item2["field_type"].">";
-                                        }
-                                    }    
-                                    echo $elementfinish;
-                                    echo "</div>";
-                                }
+                    <form id="fgeneral_conditions">
+                        <div class="x_content"  id="general_conditions">
+                            <?php
+                            echo '<ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">';
+                            $activePanel = "4";
+                            
+                            foreach($params["conditions"] as $key=>$value){
+                                $active="";
+                                if($activePanel==$value["id"]){$active="active";}
+                                echo '<li class="nav-item"><a class="nav-link '.$active.'" id="fgtab'.$value["id"].'-tab" data-toggle="tab" href="#fgtab'.$value["id"].'" role="tab" aria-controls="fgtab'.$value["id"].'" aria-selected="true">'.$value["feature_group_name"].'</a></li>';
                             }
-                            echo "</div>"; // Açılan son tablonun kapanışı....
-                        }
-                        // echo json_encode($params);
-                        ?>
-                    </div>
+                            echo '</ul>';
+                            echo '<div class="tab-content" id="myTabContent">';
+                            foreach($params["conditions"] as $key0=>$value0){
+                                // echo json_encode($value0)."<br><br>";
+                                $active = "";
+                                if($activePanel==$value0["id"]){$active="active";}
+                                echo '<div class="tab-pane fade show '.$active.'" id="fgtab'.$value0["id"].'" role="tabpanel" aria-labelledby="fgtab'.$value0["id"].'-tab">';
+                                foreach($value0["data"] as $key1=>$value1){
+                                    // echo json_encode($value1)."....<br><br>";
+                                    if(!empty($value1["data"]) && isset($value1["data"]) && is_array($value1["data"])) {
+                                        // echo "burada";
+                                        $fieldType = $value1["field_type"];
+                                        $elementStart = "";
+                                        $elementfinish = "";
+                                        if($fieldType!=""){
+                                            $elementStart = "<".$fieldType." name='conditions-value-".$value1["id"]."' class='form-control'>";
+                                            $elementfinish = "</$fieldType>";
+                                        }
+                                        echo "<div class='col-md-2' style='vertical-align:middle;'><h5>".$value1["condition_name"]."</h5></div>";
+                                        echo "<div class='col-md-9'>";
+                                        echo $elementStart;
+                                        foreach($value1["data"] as $item2){
+                                            if($item2["description"]!=""){
+                                                echo "<".$item2["field_type"]." class='col-md-6' style='margin-bottom:0;' value='".$item2["value"]."'>".$item2["value"]."</".$item2["field_type"].">";
+                                                echo "<".$item2["field_type"]." class='col-md-5' style='margin-bottom:0;'>".$item2["description"]."</".$item2["field_type"].">";
+                                            } else {
+                                                echo "<".$item2["field_type"]." class='col-md-12' style='margin-bottom:0;' value='".$item2["value"]."'>".$item2["value"]."</".$item2["field_type"].">";
+                                            }
+                                        }    
+                                        echo $elementfinish;
+                                        echo "</div><div class='clearfix'></div>";
+                                    }
+                                }
+                                echo "</div>"; // Açılan son tablonun kapanışı....
+                            }
+                            echo '</div>';
+                            ?>
+                        </div>
+                    </form>
                 </div>
                 <div class="x_panel">
                     <div class="x_title">
@@ -181,7 +198,7 @@
                                     Ürün Seçiniz <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
-                                    <select id="productSelect" name="product_id" class="form-control">
+                                    <select id="product_id" name="product_id" class="form-control">
                                         <option value="0">Ürün Seçiniz</option>
                                     </select>
                                 </div>
@@ -191,16 +208,11 @@
                                     Adet <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <input type="number" id="quantity" name="quantity" class="form-control">
+                                    <input type="number" id="quantity" name="quantity" class="form-control col-md-2">
                                 </div>
                             </div>
                             </form>
                             <div class="clearfix"></div>
-                            <form id="fconditions">
-                                <div class="form-group" id="conditionsContainer">
-                                    ..
-                                </div>
-                            </form> 
                             <div class="item form-group mb-3">
                                 <div class="col-md-6 col-sm-6 offset-md-3">
                                     <div class="ln_solid"></div>
@@ -216,10 +228,6 @@
                             </form> 
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-sm-6 offset-md-3">
-                    <div class="ln_solid"></div>
-                    <button class="btn btn-primary" type="button" onclick="postForm();">Kaydet</button>
                 </div>
             </div>
         </div>  
@@ -265,11 +273,14 @@
     }
 
     function goTechnicalDetails() {
-        var productId = $('#productSelect option').filter(':selected').val();
+        var productId = $('#product_id option').filter(':selected').val();
+        var conditions = $('#fgeneral_conditions');
         var quantity = $('#quantity').val();
         
         $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getFeatures', params:{productId: productId, quantity: quantity}}, function (data) {
+            // console.log(data);
             $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getModules', params:{productId: productId, quantity: quantity}}, function (data1) {
+                // console.log(data1);
                 var jsonData1 = JSON.parse(data1);
                 var groupName = '';
 
@@ -306,27 +317,67 @@
     function postForm() {
         var formElement = $('#offer-form');
         var technicalDetails = $('#ftechnical_details');
+        var conditions = $('#fgeneral_conditions');
         var formData = {};
         var headData = {};
+        var conditionsData = {};
         var technicalDetailsData = {};
         $.each(formElement[0], function(index, value) {
             headData[value.name] = value.value;
         });
+        headData['product_id'] = $('#product_id').val();
+        headData['quantity'] = $('#quantity').val();
         formData['heads'] = headData;
         $.each(technicalDetails[0], function(index, value) {
             technicalDetailsData[value.name] = value.value;
         });
+        $.each(conditions[0], function(index, value){
+            technicalDetailsData[value.name] = value.value;
+        });
         formData['details'] = technicalDetailsData;
         // console.log(formData);
+
         $.post('<?=SITE_URL;?>/ajax/offers.php',{'action':'postData', params:formData}, function(returnValue){
-            console.log(returnValue);
+            var jsonValue = JSON.parse(returnValue);
+            var actions = {};
+            var actionsUI = {"heads":"Üst Bilgiler", "features":"Özellikler", 'details':'Detay Bilgiler', 'conditions':'Koşul Bilgiler'}
+            var alertLevel = {true:'alert-success', false:'alert-danger'};
+
+            $.each(jsonValue, function(key,value){
+                var actions[key] = {};
+                var actions[key]['status'] = true;
+                if($.isArray(value)){
+                    $.each(value, function(index1, value1) {
+                        console.log(value1);
+                        actions[key]["status"] = actions[key]['status']&&value1["status"];
+                    });
+                } else {actions[key]["status"] = actions[key]['status']&&value["status"];}
+                if(actions[key]['status']){actions[key]['message'] = 'Kayıt Başarılı';} else {actions[key]['message'] = 'Kayıt Yapılamadı';}
+
+                console.log(actions);
+                // <div class="alert alert-success alert-dismissible d-block" role="alert" id="alert-box">
+                // <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+                // </button>
+                // <span id="alert-message">deneme</span>
+                // </div>
+                // $('#alert-box').remove
+            });
+            var counter = 0;
+            $.each(actions, function(key, value){
+                var $alertBox = $('<div>', {'id':key, 'class':'alert alert-dismissible '+alertLevel[value['status']], 'role':'alert'});
+                var $alertButton = $('<button>', {'class':'close', 'data-dismiss':'alert', 'aria-label':'Kapat','aria-hidden':'true' , 'type':'button', 'text':'x'});
+                var $alertMessage = $('<span>', {'id':'alert-message', 'text':actionsUI[key]+': '+value['message']});
+                $alertBox.append($alertButton).append($alertMessage);
+                $('#alert-container').append($alertBox);
+            });
         });
     }
-    var productSelect = $('#productSelect');
+    var productSelect = $('#product_id');
     $(document).ready(function ()  {
         productSelect.html('');
         $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'allProducts', params:{}}, function (data) {
             var jsonData = JSON.parse(data);
+            console.log(jsonData);
             $.each(jsonData, function (index, value) {
                 productSelect.append('<option value="'+value.id+'">'+value.product_name+'</option>')
             });

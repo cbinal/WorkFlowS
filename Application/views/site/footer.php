@@ -15,6 +15,10 @@
 <script src="<?=BUILD_PATH;?>/fastclick/lib/fastclick.js"></script>
 <!-- NProgress -->
 <script src="<?=BUILD_PATH;?>/nprogress/nprogress.js"></script>
+    <!-- PNotify -->
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.js"></script>
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.nonblock.js"></script>
 
 <!-- Custom Theme Scripts -->
 <script src="<?=BUILD_PATH;?>/js/custom.js"></script>

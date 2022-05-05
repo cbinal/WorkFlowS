@@ -18,6 +18,10 @@
 
 <!-- Custom Theme Scripts -->
 <script src="<?=BUILD_PATH;?>/js/custom.js"></script>
+    <!-- PNotify -->
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.js"></script>
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="<?=BUILD_PATH;?>/pnotify/dist/pnotify.nonblock.js"></script>
 
 <!-- Datatables -->
 <script src="<?=BUILD_PATH;?>/dt/js/jquery.dataTables.min.js"></script>

@@ -45,7 +45,7 @@ class ModelMySQL
             // $returnValue[$expKey[0]]["offer_id"] = $expKey[2];
         }
         $arrangedArr = [];
-        $fieldName = array("features"=>"feature_id", "details"=>"module_id");
+        $fieldName = array("features"=>"feature_id", "details"=>"module_id", "conditions"=>"condition_id");
         foreach($returnValue as $itemKey=>$itemValue) {
             foreach($itemValue as $key=>$value) {
                 $value[$fieldName[$itemKey]] = $key;
@@ -74,9 +74,16 @@ class ModelMySQL
 
     public function postOffer($data) //TODO:cbinal DOM dan gelen veriye güvenme kontrollü içeri al  
     {
+        // return $data;
+
         $returnedValue = $this->arrangeData($data["details"]);
         $offerFeatures = $returnedValue["features"];
         $offerDetails  = $returnedValue["details"];
+        $offerOthers = [];
+        $offerOthers["features"] = $returnedValue["features"];
+        $offerOthers["details"] = $returnedValue["details"];
+        $offerOthers["conditions"] = $returnedValue["conditions"];
+        // return $returnedValue;
         unset($data["features"]);
         unset($data["heads"]["0"]);
         $returnValue = [];
@@ -103,31 +110,49 @@ class ModelMySQL
             // return $returnValue;
         }
 
+        // print_r($offerOthers);
+
         if ($returnValue["heads"]["status"]) {
-            // return $offerDetails;
-            foreach ($offerDetails as $item) {
-                $item["product_id"]=$data["heads"]["product_id"];
-                $item["offer_id"]=$returnValue["heads"]["id"];
-                $smashedData = $this->smashData($item);
-                $sql = "INSERT INTO offer_details (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
-                $stmt= $this->db->prepare($sql);
-                // return $stmt;
-                // return json_encode($item);
-                $status = $stmt->execute($item);
-                $returnValue["details"][] = array("status"=>$status, "id"=>$this->db->lastInsertId(), "message"=>$status ? 'Kayıt Başarılı' : 'Kayıt Hatası');
+            foreach($offerOthers as $key=>$value){
+                // print_r($value);
+                foreach ($value as $item) {
+                    $item["product_id"]=$data["heads"]["product_id"];
+                    $item["offer_id"]=$returnValue["heads"]["id"];
+                    $smashedData = $this->smashData($item);
+                    try {
+                        $sql = "INSERT INTO offer_".$key." (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
+                        $stmt= $this->db->prepare($sql);
+                        // print_r($stmt);
+                        // print_r($item);
+                        $status = $stmt->execute($item);
+                        $returnValue[$key][] = array(
+                            "status"=>$status, 
+                            "id"=>$this->db->lastInsertId(), 
+                            "value"=>$item["value"],
+                            "message"=>$status ? 'Kayıt Başarılı' : end($stmt->errorInfo)
+                        );
+                    } catch (Exception $e) {
+                        $returnValue[$key][] = array(
+                            "status"=>$status, 
+                            "id"=>$this->db->lastInsertId(), 
+                            "value"=>$item["value"],
+                            "message"=>$status ? 'Kayıt Başarılı' : $e
+                        );
+                    }
+                    
+                }    
             }
         } 
 
+        return $returnValue;
+/* 
         if ($returnValue["heads"]["status"]) {
-            // return $offerDetails;
-            $arrInd = 1;
             foreach ($offerFeatures as $item) {
                 $item["product_id"]=$data["heads"]["product_id"];
                 $item["offer_id"]=$returnValue["heads"]["id"];
                 $smashedData = $this->smashData($item);
                 $sql = "INSERT INTO offer_features (".$smashedData["fields_str"].") VALUES (".$smashedData["params_str"].")";
                 $stmt= $this->db->prepare($sql);
-                // return json_encode($item);
                 $status = $stmt->execute($item);
                 $returnValue["features"][] = array("status"=>$status, "id"=>$this->db->lastInsertId(), "message"=>$status ? 'Kayıt Başarılı' : 'Kayıt Hatası');
             }
@@ -135,6 +160,7 @@ class ModelMySQL
         } else {
             return $returnValue;
         } 
+ */        
     }
 
     public function __destruct()
