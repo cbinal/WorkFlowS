@@ -3,11 +3,13 @@
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
+use Model\ModelMySQL;
+
 require_once "../wsdl/lib/Model.php";
 if (!empty($_POST)) {
     function allProducts() {
         $classModel1 = new \Model\ModelMySQL();
-        echo $classModel1->selectDB("products");
+        echo json_encode($classModel1->selectDB("products"));
     }
 
     function getModules($params) {  
@@ -34,6 +36,18 @@ if (!empty($_POST)) {
         $classModel = new \Model\ModelMySQL();
         $returnValue = $classModel->postOffer($params);
         echo json_encode($returnValue);
+    }
+
+    function getAffectingCondition($params){
+        $classModel = new \Model\ModelMySQL();
+        $query = $classModel->selectDB("modules", "id=".$params["module_id"]);
+        echo json_encode($query);
+    }
+
+    function getAffectedModule($params){
+        $classModel = new \Model\ModelMySQL();
+        $query = $classModel->selectDB("conditions", "id=".$params["condition_id"]);
+        echo json_encode($query);
     }
 
     $action = $_POST['action'];

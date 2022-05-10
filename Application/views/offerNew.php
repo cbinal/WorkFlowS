@@ -155,24 +155,16 @@
                                     if(!empty($value1["data"]) && isset($value1["data"]) && is_array($value1["data"])) {
                                         // echo "burada";
                                         $fieldType = $value1["field_type"];
-                                        $elementStart = "";
-                                        $elementfinish = "";
-                                        if($fieldType!=""){
-                                            $elementStart = "<".$fieldType." name='conditions-value-".$value1["id"]."' class='form-control'>";
-                                            $elementfinish = "</$fieldType>";
-                                        }
                                         echo "<div class='col-md-2' style='vertical-align:middle;'><h5>".$value1["condition_name"]."</h5></div>";
                                         echo "<div class='col-md-9'>";
-                                        echo $elementStart;
                                         foreach($value1["data"] as $item2){
-                                            if($item2["description"]!=""){
-                                                echo "<".$item2["field_type"]." class='col-md-6' style='margin-bottom:0;' value='".$item2["value"]."'>".$item2["value"]."</".$item2["field_type"].">";
-                                                echo "<".$item2["field_type"]." class='col-md-5' style='margin-bottom:0;'>".$item2["description"]."</".$item2["field_type"].">";
+                                            if($item2["field_type"]!="radio"){
+                                                echo "<input type='".$item2["field_type"]."' class='col-md-6' style='margin-bottom:0;' value='".$item2["value"]."'>";
+                                                echo "<input type='".$item2["field_type"]."' class='col-md-5' style='margin-bottom:0;' value='".$item2["description"]."'>";
                                             } else {
-                                                echo "<".$item2["field_type"]." class='col-md-12' style='margin-bottom:0;' value='".$item2["value"]."'>".$item2["value"]."</".$item2["field_type"].">";
+                                                echo "<input type='".$item2["field_type"]."' onclick='getDependencies(this);' style='margin-bottom:0;' id='radio-".$item2["id"]."' name='conditions-value-".$value1["id"]."' value='".$item2["value"]."'><label for='radio-".$item2["id"]."'> ".$item2["description"]."</label><br>";
                                             }
                                         }    
-                                        echo $elementfinish;
                                         echo "</div><div class='clearfix'></div>";
                                     }
                                 }
@@ -234,6 +226,8 @@
 <!-- jQuery -->
 <script src="<?=BUILD_PATH;?>/jquery/dist/jquery.min.js"></script>
 <script>
+    var elementStatus = {"S":false, "M":true};
+
     function countElement(item,array) {
         var count = 0;
         $.each(array, function(i,v) {
@@ -244,7 +238,6 @@
     }
 
     function initElGroup (to, id, module_group_name) {
-        // console.log($('#modulesContainer').find('#mcGroup-'+id));
         to.append('<h4 class="mt-3">'+module_group_name+'</h4><hr>');
         to.append('<div class="row" id="group-'+id+'"></div>');
         var elBlock = '<div class="col-md-8" id="fcGroup-'+id+'"></div><div class="col-md-4" style="background-color: #fafafa;" id="mcGroup-'+id+'"></div>';
@@ -270,6 +263,9 @@
         });
         elBlock += '</div></div>';
         $('#'+to).append(elBlock);
+        $.each(elements, function(index, value){
+            askDB4ModuleID2ConditonID(value.id);
+        });
     }
 
     function goTechnicalDetails() {
@@ -278,9 +274,7 @@
         var quantity = $('#quantity').val();
         
         $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getFeatures', params:{productId: productId, quantity: quantity}}, function (data) {
-            // console.log(data);
             $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getModules', params:{productId: productId, quantity: quantity}}, function (data1) {
-                // console.log(data1);
                 var jsonData1 = JSON.parse(data1);
                 var groupName = '';
 
@@ -310,8 +304,30 @@
                 elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-description', 'id':value.feature_id, 'label': 'Açıklama', 'value':'', 'type': 'text'});
                 createInputElementGroup(elBlock, 'fcGroup-'+value.feature_group_id);
             });
+        });        
+    }
+
+    function askDB4ModuleID2ConditonID(moduleID){
+        $.post('<?=SITE_URL;?>/ajax/offers.php',{action:'getAffectingCondition', params:{module_id:moduleID}}, function(data){
+            jsonData = JSON.parse(data);
+           
+            var checkedCondition = $('input[name="conditions-value-'+jsonData[0].affecting_condition+'"]:checked');
+            $('input[name=details-quantity-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
+            $('input[name=details-price-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
         });
-        
+    }
+
+    function getDependencies(element) {
+        if(element.name != '') {var splitElement = element.name.split('-');} else {element.name='';}
+        var conditionID = splitElement[splitElement.length-1];
+        $.post('<?=SITE_URL;?>/ajax/offers.php',{action:'getAffectedModule', params:{condition_id:conditionID}}, function(data){
+            var jsonData = JSON.parse(data);
+            var affectedModule = jsonData[0]["affected_module"];
+            var $inputPrice = $('input[name=details-price-'+affectedModule+']');
+            var $inputQuantity = $('input[name=details-quantity-'+affectedModule+']');
+            $inputPrice.prop('disabled', elementStatus[element.value]);
+            $inputQuantity.prop('disabled', elementStatus[element.value]);
+        });
     }
 
     function postForm() {
@@ -335,26 +351,24 @@
             technicalDetailsData[value.name] = value.value;
         });
         formData['details'] = technicalDetailsData;
-        // console.log(formData);
 
-        $.post('<?=SITE_URL;?>/ajax/offers.php',{'action':'postData', params:formData}, function(returnValue){
+        $.post('<?=SITE_URL;?>/ajax/offers.php',{action:'postData', params:formData}, function(returnValue){
+            console.log(returnValue);
             var jsonValue = JSON.parse(returnValue);
             var actions = {};
             var actionsUI = {"heads":"Üst Bilgiler", "features":"Özellikler", 'details':'Detay Bilgiler', 'conditions':'Koşul Bilgiler'}
             var alertLevel = {true:'alert-success', false:'alert-danger'};
-
             $.each(jsonValue, function(key,value){
-                var actions[key] = {};
-                var actions[key]['status'] = true;
+                actions[key] = {};
+                actions[key]['status'] = true;
                 if($.isArray(value)){
                     $.each(value, function(index1, value1) {
-                        console.log(value1);
+
                         actions[key]["status"] = actions[key]['status']&&value1["status"];
                     });
                 } else {actions[key]["status"] = actions[key]['status']&&value["status"];}
                 if(actions[key]['status']){actions[key]['message'] = 'Kayıt Başarılı';} else {actions[key]['message'] = 'Kayıt Yapılamadı';}
 
-                console.log(actions);
                 // <div class="alert alert-success alert-dismissible d-block" role="alert" id="alert-box">
                 // <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
                 // </button>
@@ -377,7 +391,6 @@
         productSelect.html('');
         $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'allProducts', params:{}}, function (data) {
             var jsonData = JSON.parse(data);
-            console.log(jsonData);
             $.each(jsonData, function (index, value) {
                 productSelect.append('<option value="'+value.id+'">'+value.product_name+'</option>')
             });

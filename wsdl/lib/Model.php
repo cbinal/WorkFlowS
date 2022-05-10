@@ -19,21 +19,21 @@ class ModelMySQL
         $where = (!empty($where))?" where ".$where:"";
         $query = $this->db->prepare("select * from $tableName $where $orderby");
         $query->execute($params);
-        return json_encode($query->fetchAll(\PDO::FETCH_ASSOC));
+        return $query->fetchAll(\PDO::FETCH_ASSOC);
     }
 
     public function versionController($forWhat, $referenceNo)
     {
         $offer = $this->selectDB($forWhat, "reference_no = ?",'revision_no desc',[$referenceNo]);
+        // return $offer[0]["revision_no"];
+        // $jsonOffer = json_decode($offer);
 
-        $jsonOffer = json_decode($offer);
-
-        if (empty($jsonOffer)) {
+        if (empty($offer[0])) {
             return 0;
         } else {
-            return $jsonOffer[0]->revision_no+1;
+            return $offer[0]["revision_no"]+1;
         }
-
+        
     }
 
     private function arrangeData($data) {
@@ -74,8 +74,7 @@ class ModelMySQL
 
     public function postOffer($data) //TODO:cbinal DOM dan gelen veriye güvenme kontrollü içeri al  
     {
-        // return $data;
-
+        
         $returnedValue = $this->arrangeData($data["details"]);
         $offerFeatures = $returnedValue["features"];
         $offerDetails  = $returnedValue["details"];
@@ -88,6 +87,7 @@ class ModelMySQL
         unset($data["heads"]["0"]);
         $returnValue = [];
         $rev_no = $this->versionController('offers', $data["heads"]['reference_no']);
+        // return $rev_no;
         $data["heads"]["revision_no"] = $rev_no;
         $smashedData = $this->smashData($data["heads"]);
         // return ($smashedData);

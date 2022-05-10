@@ -1,12 +1,12 @@
 <?php
+// echo json_encode($params["heads"][0]["reference_no"]);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
+$param = $params["heads"][0]["reference_no"].' / '.$params["heads"][0]["revision_no"];
 require "Classess/tcpdf.php";
 
 class MYPDF extends TCPDF {
-
     //Page header
     public function Header() {
         // Logo
@@ -23,7 +23,7 @@ class MYPDF extends TCPDF {
         // Set font
         $this->SetFont('helvetica', 'I', 8);
         // Page number
-        $this->Cell(0, 0, 'Sayfa '.$this->getAliasNumPage().'/'.$this->getAliasNbPages(), 0, false, 'C', 0, '', 0, false, 'T', 'M');
+        $this->Cell(200, 0, $this->CustomFooterText.' - Sayfa '.$this->getAliasNumPage().'/'.$this->getAliasNbPages(), 0, false, 'C', 0, '', 0, false, 'T', 'M');
     }
 
     public function SetPageDesc($text, $startY, $startX ) {
@@ -46,7 +46,7 @@ $pdf->SetAuthor('Celalettin Binal');
 $pdf->SetTitle('Sekizli - Fiyat Teklif Formu');
 $pdf->SetSubject('Sekizli Makine ve Vinç A.Ş. - Fiyat Teklif Formu');
 $pdf->SetKeywords('Vinç, Fiyat Teklifi, Köprü Tipi Vinç, Portal Vinç, Pergel Vinç');
-
+$pdf->CustomFooterText = $param;
 // set default header data
 $pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE, PDF_HEADER_STRING);
 
@@ -135,7 +135,7 @@ $pdf->SetFont('arial','',9);
 $pdf->SetY(262);
 $pdf->Write(0, 'Yazıların okunmaması veya eksik olması halinde, lütfen göndereni uyarın. Teşekkür ederiz.', '', 0, 'C', true, 0, false, false, 0);
 $pdf->SetPageDesc('Genel Bilgiler',266,5);
-//============================ Özellik Sayfaları ================================+
+//============================ Details, Features ================================+
 $pageID = 0;
 foreach($params["features"] as $item) {
     // echo json_encode($item);
@@ -159,12 +159,15 @@ foreach($params["features"] as $item) {
 
 }
 
+// -------------------- Price Table Start ----------------------
 $pdf->AddPage();
 
+/* 
 $pdf->SetY(50);
-$pdf->SetFont('arialbd','',16);
 $pdf->Write(0, 'FİYAT TABLOSU', '', 0, 'C', true, 0, false, false, 0);
+*/
 $pdf->SetY(80);
+$pdf->SetFont('arialbd','',16);
 $pdf->MultiCell(180, 0, $params["details"][0]["feature_group_name"], 1, 'L', 0, 0, 15, '', true);
 $pdf->ln(7.5);
 
@@ -202,6 +205,32 @@ $pdf->ln(9);
 $pdf->MultiCell(155, 0, 'Genel Toplam', 1, 'R', 0, 0, 15, '', true);
 $pdf->MultiCell(25, 0, '$ '.$totalPrice, 1, 'R', 0, 0, 170, '', true);
 $pdf->ln(7.5);
+$pdf->SetPageDesc('Fiyat Tablosu',266,5);
+// -------------------- Price Table Finish ----------------------
+// -------------------- Conditions Start -----------------------
+$pdf->AddPage();
+$pdf->SetY(50);
+$featureGroupID = 0;
+foreach($params["conditions"] as $item){
+    if($featureGroupID != $item["feature_group_id"]){
+        $featureGroupID = $item["feature_group_id"];
+        $pdf->SetFont('arialbd','',12);
+        $pdf->MultiCell(180, 0, $item["feature_group_name"], 1, 'L', 0, 0, 15, '', true);
+        $pdf->ln(8);
+    }
+    $pdf->SetFont('arial','',8);
+    $pdf->MultiCell(40, 0, $item["condition_name"], 0, 'L', 0, 0, 15, '', true);
+    if ($item["description"]!=""){
+        $pdf->MultiCell(90, 0, $item["value"], 0, 'L', 0, 0, 55, '', true);
+        $pdf->MultiCell(80, 0, $item["description"], 0, 'L', 0, 0, 145, '', true);    
+    } else {
+        $pdf->MultiCell(160, 0, $item["value"], 0, 'L', 0, 0, 55, '', true);
+    }
+    $pdf->ln(5);
+    
+}
+$pdf->SetPageDesc('Genel Koşular',266,5);
+// -------------------- Conditions Finish----------------------
 
 $pdf->Output('offer-'.$params['heads'][0]['reference_no'].'-'.$params['heads'][0]['revision_no'].'.pdf', 'I');
 //============================================================+

@@ -77,13 +77,6 @@
                     </div>
                 </div>
                 <div class="item form-group">
-                    <label class="col-form-label col-md-3 col-sm-3 label-align" for="fax_number">Faks <span class="required">*</span>
-                    </label>
-                    <div class="col-md-6 col-sm-6 ">
-                        <input type="text" readonly value="<?php echo $params["heads"][0]["fax_number"] ?>" class="form-control">
-                    </div>
-                </div>
-                <div class="item form-group">
                     <label class="col-form-label col-md-3 col-sm-3 label-align" for="gsm_number">Mobil  <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 ">

@@ -14,6 +14,7 @@ class offerModel extends model {
         $returnValue["heads"] = $query->fetchAll(PDO::FETCH_ASSOC);
         $returnValue["details"] = $this->selectDB("vw_offer_details","offer_id=".$returnValue["heads"][0]["id"]);
         $returnValue["features"] = $this->selectDB("vw_offer_features", "offer_id = ".$returnValue["heads"][0]["id"]);
+        $returnValue["conditions"] = $this->selectDB("vw_offer_conditions", "offer_id = ".$returnValue["heads"][0]["id"]);
         // $returnValue["conditions"] = $this->selectDB("vw_")
         return $returnValue;
     }
