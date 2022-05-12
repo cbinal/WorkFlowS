@@ -145,6 +145,7 @@
                             }
                             echo '</ul>';
                             echo '<div class="tab-content" id="myTabContent">';
+                            // echo json_encode($params["conditions"]);
                             foreach($params["conditions"] as $key0=>$value0){
                                 // echo json_encode($value0)."<br><br>";
                                 $active = "";
@@ -159,8 +160,8 @@
                                         echo "<div class='col-md-9'>";
                                         foreach($value1["data"] as $item2){
                                             if($item2["field_type"]!="radio"){
-                                                echo "<input type='".$item2["field_type"]."' class='col-md-6' style='margin-bottom:0;' value='".$item2["value"]."'>";
-                                                echo "<input type='".$item2["field_type"]."' class='col-md-5' style='margin-bottom:0;' value='".$item2["description"]."'>";
+                                                echo "<input type='".$item2["field_type"]."' class='col-md-6' style='margin-bottom:0;' name='conditions-value-".$item2["id"]."' value='".$item2["value"]."'>";
+                                                echo "<input type='".$item2["field_type"]."' class='col-md-5' style='margin-bottom:0;' name='conditions-description-".$item2["id"]."' value='".$item2["description"]."'>";
                                             } else {
                                                 echo "<input type='".$item2["field_type"]."' onclick='getDependencies(this);' style='margin-bottom:0;' id='radio-".$item2["id"]."' name='conditions-value-".$value1["id"]."' value='".$item2["value"]."'><label for='radio-".$item2["id"]."'> ".$item2["description"]."</label><br>";
                                             }
@@ -255,7 +256,18 @@
                 elBlock += '<label> / '+value.label+'</label>';
                     elBlock += '<div class="form-group">';
                         elBlock += '<div class="input-group">';
+                        if (value.type=='text' || value.type=='number'){
                             elBlock += '<input name="'+value.name+'-'+value.id+'" type="'+value.type+'" value="'+value.value+'" class="form-control">';
+                        } else {
+                            $.each(value.data, function(index2, value2){
+                                var checked = '';
+                                if(value2.default_value!=0){checked='checked';}
+                                console.log(value2.default_value+'-'+value2.value);
+                                elBlock += '<div class="col-md-6"><label> ';
+                                elBlock += '<input name="'+value.name+'-'+value.id+'" type="'+value.type+'" '+checked+' value="'+value2.value+'">';
+                                elBlock += value2.value+'</label></div>';
+                            });
+                        }
                         elBlock += '</div>';
                     elBlock += '</div>';
                 elBlock += '</div>';
@@ -299,10 +311,13 @@
                     initElGroup(featuresContainer, value.feature_group_id, value.feature_group_name);
                     groupName = value.feature_group_name;
                 }
-                var elBlock = [];
-                elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-value', 'id':value.feature_id, 'label': 'Değer', 'value':'', 'type': 'text'});
-                elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-description', 'id':value.feature_id, 'label': 'Açıklama', 'value':'', 'type': 'text'});
-                createInputElementGroup(elBlock, 'fcGroup-'+value.feature_group_id);
+                $.post('<?=SITE_URL;?>/ajax/offers.php', {action:'getFeatureValues', params:{featureID:value.feature_id}}, function (data2) {
+                    jsonData2 = JSON.parse(data2);
+                    var elBlock = [];
+                    elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-value', 'id':value.feature_id, 'label': 'Değer', 'value':'', 'type': value.field_type, 'data': jsonData2});
+                    elBlock.push({'isThere':true, 'module_name':value.feature_name, 'size':6, 'name':'features-description', 'id':value.feature_id, 'label': 'Açıklama', 'value':'', 'type': 'text'});
+                    createInputElementGroup(elBlock, 'fcGroup-'+value.feature_group_id);
+                });
             });
         });        
     }
@@ -310,10 +325,13 @@
     function askDB4ModuleID2ConditonID(moduleID){
         $.post('<?=SITE_URL;?>/ajax/offers.php',{action:'getAffectingCondition', params:{module_id:moduleID}}, function(data){
             jsonData = JSON.parse(data);
-           
-            var checkedCondition = $('input[name="conditions-value-'+jsonData[0].affecting_condition+'"]:checked');
-            $('input[name=details-quantity-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
-            $('input[name=details-price-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
+            if(jsonData[0]!=undefined){
+                var checkedCondition = $('input[name="conditions-value-'+jsonData[0].affecting_condition+'"]:checked');
+                if(checkedCondition[0]!=undefined){
+                    $('input[name=details-quantity-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
+                    $('input[name=details-price-'+moduleID+']').prop('disabled', elementStatus[checkedCondition[0].value]);
+                }
+            }
         });
     }
 
@@ -334,6 +352,7 @@
         var formElement = $('#offer-form');
         var technicalDetails = $('#ftechnical_details');
         var conditions = $('#fgeneral_conditions');
+        console.log(conditions[0]);
         var formData = {};
         var headData = {};
         var conditionsData = {};
@@ -348,12 +367,29 @@
             technicalDetailsData[value.name] = value.value;
         });
         $.each(conditions[0], function(index, value){
-            technicalDetailsData[value.name] = value.value;
+            
+            console.log(value.type);
+            if(value.type=='radio'){
+                console.log(value);
+                console.log('radio if');
+                console.log(value.checked);
+                if(value.checked) {
+                    console.log('radio if checked');
+                    console.log($('#radio-15')); //value.id
+                    var splitCondition = value.name.split('-');
+                    technicalDetailsData[value.name] = value.value;
+                    var radioElement = $('#'+value.id);
+                    technicalDetailsData['conditions-description-'+splitCondition[2]] = radioElement[0].labels[0].innerText;
+                }
+            } else {
+                technicalDetailsData[value.name] = value.value;
+            }
         });
         formData['details'] = technicalDetailsData;
 
+        console.log(formData);
+
         $.post('<?=SITE_URL;?>/ajax/offers.php',{action:'postData', params:formData}, function(returnValue){
-            console.log(returnValue);
             var jsonValue = JSON.parse(returnValue);
             var actions = {};
             var actionsUI = {"heads":"Üst Bilgiler", "features":"Özellikler", 'details':'Detay Bilgiler', 'conditions':'Koşul Bilgiler'}

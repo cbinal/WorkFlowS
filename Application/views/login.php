@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Sekizli İş Akış</title>
-
+    <link rel="icon" type="image/x-icon" href="<?=IMG_PATH;?>/favicon.ico">
     <!-- Bootstrap -->
     <link href="<?=BUILD_PATH;?>/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->

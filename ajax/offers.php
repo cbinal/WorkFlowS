@@ -50,6 +50,12 @@ if (!empty($_POST)) {
         echo json_encode($query);
     }
 
+    function getFeatureValues($params){
+        $classModel = new \Model\ModelMySQL();
+        $query = $classModel->selectDB("feature_values", "feature_id=".$params["featureID"]);
+        echo json_encode($query);
+    }
+
     $action = $_POST['action'];
     $params = $_POST['params'];
     // $action = $_GET['action'];
