@@ -611,6 +611,7 @@ class ZKLibrary {
 		$command = CMD_OPTIONS_RRQ;
 		$command_string = '~SerialNumber';
 		$return = $this->execCommand($command, $command_string);
+		return $return;
 		if($net)
 		{
 			$arr = explode("=", $return, 2);
