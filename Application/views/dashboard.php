@@ -1,67 +1,71 @@
 <div class="right_col" role="main">
-    <div class="">
-        <div class="page-title">
-            <div class="title_left">
-                <h3>Gösterge Paneli</h3>
-            </div>
+  <div class="">
+    <div class="page-title">
+      <div class="title_left">
+          <h3>Gösterge Paneli</h3>
+      </div>
 
-            <div class="title_right">
-                <div class="col-md-5 col-sm-5  form-group pull-right top_search">
+      <div class="title_right">
+        <div class="col-md-5 col-sm-5  form-group pull-right top_search">
 
 
-                </div>
-            </div>
         </div>
+      </div>
+    </div>
 
-        <div class="clearfix"></div>
+    <div class="clearfix"></div>
 
-        <div class="row">
-          <div class="cl-md-6 col-sm-6">
-          <div class="x_panel">
-                
-                <div class="x_content">
-                    <div class="col-md-12 col-sm-12 ">
-                        <input type="text" id="datepicker1" onclick="this.type='date'" data-date-format="DD-MM-YYYY" onfocus="this.type='date'" onblur="this.type='text'" class="date-picker form-control col-md-6 col-sm-6">
-                        <div id="currencyData"></div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div id="data" class="col-md-12 col-sm-12"></div>
-                </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="x_panel">
+              
+          <div class="x_content">
+            <div class="col-md-12 col-sm-12 ">
+              <input type="text" id="datepicker1" onclick="this.type='date'" data-date-format="DD-MM-YYYY" onfocus="this.type='date'" onblur="this.type='text'" class="date-picker form-control col-md-6 col-sm-6">
+              <div id="currencyData"></div>
             </div>
+            <div class="clearfix"></div>
+            <div id="data" class="col-md-12 col-sm-12"></div>
           </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 <script>
     var currencies = ["USD", "EUR", "GBP"];
     var currencyContainer = $('#currencyData');
 
     $(document).ready(function ()  {
-      $.post('<?=SITE_URL;?>/ajax/dashboard.php', {action:'getCurrenciesMB', params:{day:0, month: 0, year:0}}, function (data) {
-            var jsonData = JSON.parse(data);
-            console.log(jsonData);
-            currencyContainer.html('');
-            currencyContainer.append('<table class="table table-striped" id="currencyTable"><thead>'+
-                        '<tr>'+
-                          '<th>#</th>'+
-                          '<th>Döviz Cinsi</th>'+
-                          '<th>Efektif Alış</th>'+
-                          '<th>Efektif Satış</th>'+
-                        '</tr>'+
-                      '</thead><tbody></tbody></table>');
-            var currencyTable = $('#currencyTable tbody');
-            $.each(jsonData.Currency, function(index, value){
-              // console.log(value["@attributes"]["CurrencyCode"]);
-              if($.inArray(value["@attributes"]["CurrencyCode"],currencies)>=0){
-                currencyTable.append('<tr id="row'+index+'"></tr>')
-                var row = $('#row'+index);
-                row.append('<td>'+value["@attributes"]["CurrencyCode"]+'</td>');
-                row.append('<td>'+value.Isim+'</td>');
-                row.append('<td>'+value.BanknoteBuying+'</td>');
-                row.append('<td>'+value.BanknoteSelling+'</td>');
-              }
-            });
+      $.post('<?=SITE_URL;?>/ajax/dashboard.php', {action:'getCurrenciesMB', params:{day:0, month: 0, year:0, requestedCurr:''}}, function (data) {
+        var jsonData = JSON.parse(data);
+        console.log(jsonData);
+        currencyContainer.html('');
+        currencyContainer.append('<table class="table table-striped" id="currencyTable"><thead>'+
+                    '<tr>'+
+                      '<th>#</th>'+
+                      '<th>Döviz Cinsi</th>'+
+                      '<th>Döviz Alış</th>'+
+                      '<th>Döviz Satış</th>'+
+                      '<th>Efektif Alış</th>'+
+                      '<th>Efektif Satış</th>'+
+                    '</tr>'+
+                  '</thead><tbody></tbody></table>');
+        var currencyTable = $('#currencyTable tbody');
+        $.each(jsonData.Currency, function(index, value){
+          // console.log(value["@attributes"]["CurrencyCode"]);
+          if($.inArray(value["@attributes"]["CurrencyCode"],currencies)>=0){
+            currencyTable.append('<tr id="row'+index+'"></tr>')
+            var row = $('#row'+index);
+            row.append('<td>'+value["@attributes"]["CurrencyCode"]+'</td>');
+            row.append('<td>'+value.Isim+'</td>');
+            row.append('<td>'+value.ForexBuying+'</td>');
+            row.append('<td>'+value.ForexSelling+'</td>');
+            row.append('<td>'+value.BanknoteBuying+'</td>');
+            row.append('<td>'+value.BanknoteSelling+'</td>');
+          }
         });
+      });
     });
     $('#datepicker1').change(function(e){
         var getDateValue = this.value;
@@ -79,6 +83,8 @@
                         '<tr>'+
                           '<th>#</th>'+
                           '<th>Döviz Cinsi</th>'+
+                          '<th>Döviz Alış</th>'+
+                          '<th>Döviz Satış</th>'+
                           '<th>Efektif Alış</th>'+
                           '<th>Efektif Satış</th>'+
                         '</tr>'+
@@ -91,6 +97,8 @@
                 var row = $('#row'+index);
                 row.append('<td>'+value["@attributes"]["CurrencyCode"]+'</td>');
                 row.append('<td>'+value.Isim+'</td>');
+                row.append('<td>'+value.ForexBuying+'</td>');
+                row.append('<td>'+value.ForexSelling+'</td>');
                 row.append('<td>'+value.BanknoteBuying+'</td>');
                 row.append('<td>'+value.BanknoteSelling+'</td>');
               }

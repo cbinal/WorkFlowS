@@ -22,8 +22,10 @@
                                 <a class="dropdown-item" href="#">Settings 2</a>
                             </div>
                         </li>
-                        <li style="margin-left:20px;">
-                            <a href="#" onclick="postForm();"><i class="fa fa-save"></i></a>
+                        <li style="margin:auto; padding-left:20px;">
+                            <a href="#" onclick="postForm();">
+                                <i class="fa fa-save"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -118,6 +120,24 @@
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="text" id="auth_person" name="auth_person" required="required" class="form-control">
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="exchange">Döviz Cinsi / Kur<span class="required">*</span>
+                                </label>
+                                <div class="col-md-3 col-sm-3 ">
+                                        <?php
+                                        $checked = ["EUR"=>"checked", "USD"=>"", "TRY"=>""];
+                                        foreach($params["offer"]["currency_types"] as $items){
+                                            ?>
+                                            <label for="currency_type_<?php echo $items["value"]; ?>"><?php echo $items["value"]; ?></label>
+                                            <input type="radio" <?php echo $checked[$items["value"]]; ?> name="currency_type" id="currency_type_<?php echo $items["value"]; ?>" value="<?php echo $items["value"]; ?>" onclick="getCurrData();"><br>
+                                            <?php
+                                        }
+                                        ?>
+                                </div>
+                                <div class="col-md-3 col-sm-3 ">
+                                    <input type="text" id="exchange_rate" name="exchange_rate" required="required" class="form-control" value="">
                                 </div>
                             </div>
                         </div>
@@ -228,6 +248,7 @@
 <script src="<?=BUILD_PATH;?>/jquery/dist/jquery.min.js"></script>
 <script>
     var elementStatus = {"S":false, "M":true};
+    var exchangeRate = $('#exchange_rate');
 
     function countElement(item,array) {
         var count = 0;
@@ -352,30 +373,42 @@
         var formElement = $('#offer-form');
         var technicalDetails = $('#ftechnical_details');
         var conditions = $('#fgeneral_conditions');
-        console.log(conditions[0]);
+        // console.log(conditions[0]);
         var formData = {};
         var headData = {};
         var conditionsData = {};
         var technicalDetailsData = {};
         $.each(formElement[0], function(index, value) {
-            headData[value.name] = value.value;
+            if(value.type=='radio'){
+                console.log(value.name);
+                var radioElement = $('input[name='+value.name+']:checked');
+                console.log(radioElement[0].value);
+                headData[value.name] = radioElement[0].value;
+            } else {
+                headData[value.name] = value.value;
+            }
         });
         headData['product_id'] = $('#product_id').val();
         headData['quantity'] = $('#quantity').val();
         formData['heads'] = headData;
         $.each(technicalDetails[0], function(index, value) {
-            technicalDetailsData[value.name] = value.value;
+            if(value.type=='radio'){
+                var radioElement = $('input[name='+value.name+']:checked');
+                technicalDetailsData[value.name] = radioElement[0].value;
+            }else{
+                technicalDetailsData[value.name] = value.value;
+            }
         });
         $.each(conditions[0], function(index, value){
             
-            console.log(value.type);
+            // console.log(value.type);
             if(value.type=='radio'){
-                console.log(value);
-                console.log('radio if');
-                console.log(value.checked);
+                // console.log(value);
+                // console.log('radio if');
+                // console.log(value.checked);
                 if(value.checked) {
-                    console.log('radio if checked');
-                    console.log($('#radio-15')); //value.id
+                    // console.log('radio if checked');
+                    // console.log($('#radio-15')); //value.id
                     var splitCondition = value.name.split('-');
                     technicalDetailsData[value.name] = value.value;
                     var radioElement = $('#'+value.id);
@@ -422,6 +455,21 @@
             });
         });
     }
+
+    function getCurrData(){
+        var currencyType = $('input[name=currency_type]:checked');
+        console.log(currencyType[0].value);
+        if(currencyType[0].value!='TRY'){
+            $.post('<?=SITE_URL;?>/ajax/dashboard.php', {action:'getCurrenciesMB', params:{day:0, requestedCurr:currencyType[0].value}}, function(currData){
+                jsonCurrData = JSON.parse(currData);
+                console.log(jsonCurrData);
+                exchangeRate.val(jsonCurrData.ForexBuying);
+            });
+        } else {
+            exchangeRate.val(1);
+        }
+    }
+
     var productSelect = $('#product_id');
     $(document).ready(function ()  {
         productSelect.html('');
@@ -431,5 +479,6 @@
                 productSelect.append('<option value="'+value.id+'">'+value.product_name+'</option>')
             });
         });
+        getCurrData();
     });
 </script>

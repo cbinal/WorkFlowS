@@ -167,6 +167,25 @@ class ModelMySQL
     {
         $this->db = null;
     }
+
+    public function getCurrenciesMB($params){
+        $folder = $params["year"].$params["month"];
+        $file = $params["day"].$params["month"].$params["year"];
+        $url = "https://www.tcmb.gov.tr/kurlar/$folder/$file.xml";
+        if($params["day"]==0){$url = "https://www.tcmb.gov.tr/kurlar/today.xml";}
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_HEADER, 0);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+        $response = curl_exec($curl);
+        if ($response === false) {
+            throw new Exception\ConnectionFailed('Sunucu Bağlantısı Kurulamadı: ' . $curl->error());
+        }
+        curl_close($curl);
+        echo json_encode((array) simplexml_load_string($response));
+        // echo "<br>".json_encode($doviz->Currency[0]->BanknoteSelling);
+    }
 }
 
 class ModelMSSQL

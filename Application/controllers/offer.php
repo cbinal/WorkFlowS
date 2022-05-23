@@ -23,6 +23,8 @@ class offer extends controller {
     public function new() {
         if (!$this->sessionManager->isLogged()) { helper::redirect(SITE_URL.'/login');}
         $responseData["conditions"] = $this->model('offerModel')->conditions4New();
+        $responseData["offer"]["currency_types"] = $this->model('offerModel')->getCurrencyTypes(); 
+
         // echo json_encode($responseData);
         $this->render('site/header_with_dt');
         $this->render('site/left_side');

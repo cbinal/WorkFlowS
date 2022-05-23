@@ -1,5 +1,6 @@
 <?php
 class offerModel extends model {
+    
     public function listOffers($position, $page, $page_size) {
         $query = $this->db->prepare("SELECT * FROM `vw_max_rev_offers` limit 0,100");
         // $query = $this->db->prepare("SELECT * FROM `vw_max_pos_transitions` LEFT JOIN offers on offers.id = vw_max_pos_transitions.transaction_id WHERE vw_max_pos_transitions.for_what = 'offer' and vw_max_pos_transitions.transition_type=? limit 0,100");
@@ -74,7 +75,15 @@ class offerModel extends model {
         return $featureGroups;
     }
 
+    public function getCurrencyTypes() {
+        return $this->selectDB("offer_values","field_name = 'currency_type'");
+    }
+
     public function postNewOffer () {
         //Buraya yeni teklif işlenecek
+    }
+
+    public function getOfferColumns() {
+        return $this->getColums('offers');
     }
 }

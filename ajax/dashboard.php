@@ -5,6 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
  */
 function getCurrenciesMB($params){
+  // echo json_encode($params);
   $folder = $params["year"].$params["month"];
   $file = $params["day"].$params["month"].$params["year"];
   $url = "https://www.tcmb.gov.tr/kurlar/$folder/$file.xml";
@@ -19,7 +20,20 @@ function getCurrenciesMB($params){
       throw new Exception\ConnectionFailed('Sunucu Bağlantısı Kurulamadı: ' . $curl->error());
   }
   curl_close($curl);
-  echo json_encode((array) simplexml_load_string($response));
+  $jsonResponse = (array) simplexml_load_string($response);
+  // print_r($jsonResponse["Currency"][0]);
+  if($params["requestedCurr"]!='') {
+    // echo "requestedCurr doğru geldi.";
+    foreach($jsonResponse["Currency"] as $item){
+      $arrItem = (array) $item;
+      // print_r($arrItem["@attributes"]);
+      if($arrItem["@attributes"]["Kod"]==$params["requestedCurr"]){
+        echo json_encode($item);
+      }
+    }
+  } else {
+    echo json_encode((array) simplexml_load_string($response));
+  }
   // echo "<br>".json_encode($doviz->Currency[0]->BanknoteSelling);
 }
 
